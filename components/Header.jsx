@@ -52,12 +52,13 @@ export default function Navbar() {
   return (
     <div>
       <header className="bg-gray-200">
-        <div className="text-center py-3">
-          <p className="text-lg font-bold">République Algérienne Démocratique et Populaire</p>
-          <p className="text-lg font-bold">Ministère de l&apos;Industrie et de la Production Pharmaceutique</p>
-          <p className="text-lg font-bold">Centre Technique Industriel des Industries Mécaniques et Transformatrices des Métaux</p>
-        </div>
-      </header>
+  <div className="text-center py-3">
+           <p className="text-lg md:text-xl font-bold">République Algérienne Démocratique et Populaire</p>
+                <p className="text-lg md:text-xl font-bold">Ministère de l&apos;Industrie et de la Production Pharmaceutique</p>
+            <p className="text-lg md:text-xl font-bold">Centre Technique Industriel des Industries Mécaniques et Transformatrices des Métaux</p>
+    </div>
+   </header>
+
 
       <nav className="bg-gray-300 shadow-md border-b border-gray-300">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
