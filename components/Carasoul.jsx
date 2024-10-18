@@ -7,8 +7,9 @@ export function CarouselDefault() {
     <Carousel className="rounded-xl">
       <div className="relative w-full h-[400px]">
       <img
-          src="/7ème édition.jpg"
+          src="./7ème édition.jpg"
           alt="image 2"
+          lazy = 'loading'
           className="h-full w-full object-contain rounded-xl" // Changement ici pour les images
         />
         <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white p-4 flex flex-col items-center transition-transform duration-500 scale-75 opacity-0 hover:scale-100 hover:opacity-100">
@@ -19,8 +20,9 @@ export function CarouselDefault() {
 
       <div className="relative w-full h-[400px]">
         <img
-          src="/7ème édition.jpg"
+          src="./7ème édition.jpg"
           alt="image 2"
+          lazy = 'loading'
           className="h-full w-full object-contain rounded-xl" // Changement ici pour les images
         />
         <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white p-4 flex flex-col items-center transition-transform duration-500 scale-75 opacity-0 hover:scale-100 hover:opacity-100">
@@ -31,8 +33,9 @@ export function CarouselDefault() {
 
       <div className="relative w-full h-[400px]">
         <img
-          src="/7ème édition.jpg"
+          src="./7ème édition.jpg"
           alt="image 3"
+          lazy = 'loading'
           className="h-full w-full object-contain rounded-xl" // Changement ici pour les images
         />
         <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white p-4 flex flex-col items-center transition-transform duration-500 scale-75 opacity-0 hover:scale-100 hover:opacity-100">

@@ -4,10 +4,10 @@ import Image from 'next/image';
 export default function Clients() {
   const clients = [
     { id: 1, name: "Client A", logo: "/ctime.png" },
-    { id: 2, name: "Client B", logo: "/path/to/logo-b.png" },
-    { id: 3, name: "Client C", logo: "/path/to/logo-c.png" },
-    { id: 4, name: "Client D", logo: "/path/to/logo-d.png" },
-    { id: 5, name: "Client E", logo: "/path/to/logo-e.png" },
+    { id: 2, name: "Client B", logo: "/ctime.png" },
+    { id: 3, name: "Client C", logo: "/ctime.png" },
+    { id: 4, name: "Client D", logo: "/ctime.png" },
+    { id: 5, name: "Client E", logo: "/ctime.png" },
   ];
 
   return (
