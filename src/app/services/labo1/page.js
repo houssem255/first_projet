@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import React, { useEffect, useState } from 'react';
 import { FaTools, FaRulerCombined, FaCogs, FaDraftingCompass, FaCheckCircle, FaObjectGroup } from 'react-icons/fa';
+import Image from 'next/image'; 
 
 const LaboratoireDeMetrologie = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -16,10 +17,12 @@ const LaboratoireDeMetrologie = () => {
     <div className="bg-gray-100">
       {/* Bannière d'introduction avec animation de fondu et de glissement */}
       <div className="relative">
-        <img
+        <Image
           src="/Equipements CTIME.jpg"
           alt="Laboratoire de Métrologie Dimensionnelle"
           className={`w-full h-[250px] object-cover transform transition-transform duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-[-50px]'}`}
+          width={1000} 
+          height={250} 
         />
       </div>
 

@@ -1,5 +1,5 @@
 'use client'
-import SendEmail from "@/app/api/SendEmail"
+import SendEmail from "../../src/app/api/sendEmail"
 import { useState } from "react"
 export default function Cantact_Two() {
   const [values,setValues] = useState({

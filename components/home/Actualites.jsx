@@ -1,3 +1,6 @@
+'use client';
+import Image from 'next/image';
+
 export default function Actualites() {
   const actualites = [
     {
@@ -30,9 +33,11 @@ export default function Actualites() {
       <div className="flex flex-col md:flex-row justify-around gap-10 w-full max-w-4xl">
         {actualites.map((actualite) => (
           <div key={actualite.id} className="bg-white rounded-lg shadow-lg p-6 mb-4 md:mb-0 md:w-1/3 transition-transform duration-300 transform hover:scale-105 hover:shadow-xl">
-            <img
+            <Image
               src={actualite.image}
               alt={actualite.title}
+              width={400} 
+              height={200}
               className="w-full h-32 object-cover rounded-t-lg mb-4"
             />
             <h2 className="text-2xl font-semibold mb-2 text-red-600">{actualite.title}</h2>

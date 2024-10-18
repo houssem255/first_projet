@@ -1,6 +1,7 @@
 "use client";
-import Head from 'next/head';
+
 import { useEffect } from 'react';
+import Image from 'next/image';
 
 export default function Actualites() {
   useEffect(() => {
@@ -74,7 +75,13 @@ export default function Actualites() {
             <article className="article border-b border-gray-300 pb-4 hover:shadow-2xl transition-shadow duration-300 rounded-lg p-4 bg-gray-50 hover:bg-gray-100" key={index}>
               <h2 className="text-2xl font-semibold text-blue-700 hover:text-blue-900 transition-colors">{article.title}</h2>
               <p className="text-gray-500 text-sm">{article.date}</p>
-              <img src={article.img} alt={article.title} className="w-full rounded-lg mb-2 transition-transform duration-300 hover:scale-105" />
+              <Image 
+                src={article.img} 
+                alt={article.title} 
+                width={600} 
+                height={400} 
+                className="w-full rounded-lg mb-2 transition-transform duration-300 hover:scale-105" 
+              />
               <p className="text-gray-700">{article.description}</p>
             </article>
           ))}

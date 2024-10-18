@@ -46,17 +46,14 @@ const FlipCardComponent = () => {
                   <div className="absolute inset-0 h-full w-full rounded-xl bg-gray-800 px-8 text-center text-white [transform:rotateY(180deg)] [backface-visibility:hidden]">
                     <div className="flex min-h-full flex-col items-center justify-center">
                       <p className="text-lg text-center mb-4">{service.description}</p>
-                      <a href="tel:555-555-5555" className="inline-flex">
+                     
                         <button className="my-2 bg-red-600 hover:bg-red-500 text-white font-bold py-2 px-4 w-auto rounded-full inline-flex items-center shadow-md transition duration-300">
                          <Link   href={service.link}>
                           <span>Schedule Service</span>
                           </Link>
                           <WrenchScrewdriverIcon className="h-6 w-6 ml-2" />
                          </button>
-                       
-              
-                       
-                      </a>
+                     
                     </div>
                   </div>
                 </div>

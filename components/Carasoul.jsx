@@ -43,4 +43,4 @@ export function CarouselDefault() {
       </div>
     </Carousel>
   );
-}
+} 

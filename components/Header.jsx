@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
+import Image from 'next/image'; 
 
 export default function Navbar() {
   const [isDropdownOpen, setIsDropdownOpen] = useState({
@@ -11,7 +12,7 @@ export default function Navbar() {
     actualites: false,
   });
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  const dropdownRef = useRef(null); 
+  const dropdownRef = useRef(null);
 
   const toggleDropdown = (key) => {
     setIsDropdownOpen((prev) => {
@@ -21,7 +22,7 @@ export default function Navbar() {
         formations: false,
         actualites: false,
       };
-      newState[key] = !prev[key]; 
+      newState[key] = !prev[key];
       return newState;
     });
   };
@@ -51,20 +52,23 @@ export default function Navbar() {
 
   return (
     <div>
-      <header className="bg-gray-200">
-        <div className="text-center py-3">
-          <p className="text-lg font-bold">République Algérienne Démocratique et Populaire</p>
-          <p className="text-lg font-bold">Ministère de l&apos;Industrie et de la Production Pharmaceutique</p>
-          <p className="text-lg font-bold">Centre Technique Industriel des Industries Mécaniques et Transformatrices des Métaux</p>
-        </div>
-      </header>
+    <header className="bg-gray-200">
+  <div className="text-center py-3">
+    <p className="text-lg md:text-xl font-bold">République Algérienne Démocratique et Populaire</p>
+    <p className="text-lg md:text-xl font-bold">Ministère de l&apos;Industrie et de la Production Pharmaceutique</p>
+    <p className="text-lg md:text-xl font-bold">Centre Technique Industriel des Industries Mécaniques et Transformatrices des Métaux</p>
+  </div>
+</header>
+
 
       <nav className="bg-gray-300 shadow-md border-b border-gray-300">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <div className="flex items-center space-x-3">
-            <Link href="/" className="block px-4 py-2 hover:bg-gray-200">
-              <img src="/ctime.png" className="h-10" alt="Logo CTIME" />
-              <span className="text-size font-semibold text-gray-800">Votre compagnon vers la qualité</span>
+            <Link href="/" className="block px-4 py-2 hover:bg-gray-200items-center">
+              <Image src="/ctime.png" className="h-10" alt="Logo CTIME" width={80} height={60} />
+              </Link>
+              <Link href="/" className="block px-4 py-2 hover:bg-gray-200items-center">
+              <p className="text-size font-semibold text-gray-800">Votre compagnon vers la qualité</p>
             </Link>
           </div>
 
