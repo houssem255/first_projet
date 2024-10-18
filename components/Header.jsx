@@ -3,6 +3,7 @@
 import { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import Image from 'next/image'; 
+import Head from 'next/head';
 
 export default function Navbar() {
   const [isDropdownOpen, setIsDropdownOpen] = useState({

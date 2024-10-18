@@ -2,7 +2,7 @@
 
 import { useEffect } from 'react';
 import Image from 'next/image';
-
+import Head from 'next/head'
 export default function Actualites() {
   useEffect(() => {
     const articles = document.querySelectorAll('.article');
