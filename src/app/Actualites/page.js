@@ -32,7 +32,7 @@ export default function Actualites() {
             {
               title: "Participation à ALGEST 2023",
               date: "Actualités / Par admin",
-              img: "/7ème édition.jpg",
+              img: "/7.png",
               description: "Le CTIME participera à la 8ème édition du salon international de la sous-traitance ALGEST 2023 qui se tiendra du 14 au 17 Novembre 2023 au niveau de la SAFEX (Pins Maritime) – ALGER."
             },
             {
