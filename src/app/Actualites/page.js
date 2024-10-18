@@ -56,7 +56,7 @@ export default function Actualites() {
             {
               title: "Journée d’étude sur l’IA dans l’industrie",
               date: "Actualités / Par admin",
-              img: "/153.jpg",
+              img: "/154.png",
               description: "Le 15 septembre 2023, le CTIME a participé à une journée d’étude sur l’utilisation de l’intelligence artificielle dans les processus industriels, organisée par le Ministère de l'Industrie."
             },
             {
