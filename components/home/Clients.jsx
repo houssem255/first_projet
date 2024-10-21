@@ -7,7 +7,7 @@ export default function Clients() {
     { id: 2, name: "Client B", logo: "/ctime.png" },
     { id: 3, name: "Client C", logo: "/ctime.png" },
     { id: 4, name: "Client D", logo: "/ctime.png" },
-    { id: 5, name: "Client E", logo: "/ctime.png" },
+    { id: 5, name: "Client E", logo: "/html.jpg" },
   ];
 
   return (
