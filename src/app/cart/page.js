@@ -1,16 +1,14 @@
 import React from "react";
 import Link from 'next/link';
-import Image from 'next/image';
 import { MdScience, MdEngineering, MdBuild, MdPrecisionManufacturing } from 'react-icons/md';
-
 export default function PresentationCTIME() {
   return (
     <div className="container mx-auto p-6">
+      {/* Section bannière avec animation */}
       <div className="relative mb-10">
         <div className="overflow-hidden rounded-lg shadow-lg">
-          <Image 
-            width={400} 
-            height={300}
+          <img 
+            width={400} height={300}
             src="/Eprouvette-imageonline.co-merged.png" 
             alt="Bannière CTIME"
             className="w-full h-64 object-cover transform transition-transform duration-500 hover:scale-110"
@@ -20,7 +18,6 @@ export default function PresentationCTIME() {
           Présentation du CTIME
         </h1>
       </div>
-
       {/* Introduction */}
       <section className="bg-gray-50 p-6 rounded-lg shadow-md mb-10">
         <p className="mb-4 text-lg text-gray-700">
@@ -30,11 +27,14 @@ export default function PresentationCTIME() {
           Le CTIME est un Etablissement Public à Caractère Industriel et Commercial « EPIC » et relève du Ministère de l’Industrie et des Mines. Sa création a été le fruit d&apos;une étude de faisabilité relative à la filière mécanique, dans le cadre du programme PME II.
         </p>
       </section>
-
+      
       {/* Section Laboratoires */}
       <section>
         <h2 className="text-3xl font-semibold text-center mb-8 text-gray-800">Nos Laboratoires Spécialisés</h2>
+        
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
+          
+          {/* Laboratoire d'essais mécaniques */}
           <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
             <div className="flex items-center mb-4">
               <MdScience className="text-4xl text-red-600 mr-3" />
@@ -52,10 +52,57 @@ export default function PresentationCTIME() {
               <li>Essai de fatigue</li>
             </ul>
           </div>
-          {/* باقي الأقسام... */}
+          
+          {/* Laboratoire de métrologie dimensionnelle */}
+          <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
+            <div className="flex items-center mb-4">
+              <MdPrecisionManufacturing className="text-4xl text-red-600 mr-3" />
+              <h3 className="text-2xl font-semibold">Laboratoire de métrologie dimensionnelle</h3>
+            </div>
+            <p className="text-gray-700 mb-4">
+              Science de la mesure garantissant des mesures fiables dans tous les processus de production.
+            </p>
+            <ul className="list-disc pl-6 text-gray-700 space-y-2">
+              <li>Étalonnage des instruments de mesure</li>
+              <li>Contrôle de formes et de surfaces</li>
+              <li>Rétro conception</li>
+            </ul>
+          </div>
+          
+          {/* Laboratoire de contrôle non destructif */}
+          <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
+            <div className="flex items-center mb-4">
+              <MdBuild className="text-4xl text-red-600 mr-3" />
+              <h3 className="text-2xl font-semibold">Laboratoire de contrôle non destructif</h3>
+            </div>
+            <p className="text-gray-700 mb-4">
+              Ensemble de méthodes pour caractériser l&apos;état d&apos;intégrité des structures ou matériaux sans les dégrader.
+            </p>
+            <ul className="list-disc pl-6 text-gray-700 space-y-2">
+              <li>Ressuage</li>
+              <li>Examen visuel</li>
+              <li>Ultrasons</li>
+              <li>Radiographie</li>
+            </ul>
+          </div>
+          
+          {/* Laboratoire d'essais métallurgiques */}
+          <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
+            <div className="flex items-center mb-4">
+              <MdEngineering className="text-4xl text-red-600 mr-3" />
+              <h3 className="text-2xl font-semibold">Laboratoire d&apos;essais métallurgiques</h3>
+            </div>
+            <p className="text-gray-700 mb-4">
+              Étude des propriétés physico-chimiques des matériaux métalliques dans des conditions données.
+            </p>
+            <ul className="list-disc pl-6 text-gray-700 space-y-2">
+              <li>Analyse chimique des matériaux métalliques</li>
+              <li>Essais de corrosion</li>
+              <li>Analyse structurale (macro et microstructure)</li>
+            </ul>
+          </div>
         </div>
       </section>
-
       {/* Fiche technique */}
       <section className="bg-gray-100 p-6 mt-12 rounded-lg shadow-md">
         <h2 className="text-3xl font-semibold mb-6">FICHE TECHNIQUE DU CTIME</h2>
