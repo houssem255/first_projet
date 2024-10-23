@@ -88,7 +88,7 @@ const LaboratoireDeMetrologie = () => {
             <Link href={'/resilience'}>
               <h3 className="text-xl font-semibold text-gray-200 mb-2">Essai de Résilience</h3>
             </Link>
-            <p className="text-gray-400">Mesure de la ténacité à l'impact.</p>
+            <p className="text-gray-400">Mesure de la ténacité à l&apos;impact.</p>
           </div>
 
           <div className="bg-gray-800 p-6 rounded-lg shadow-lg transform transition-transform duration-500 hover:scale-105">
