@@ -6,7 +6,7 @@ const AboutUsPage = () => {
   return (
     <div className="flex flex-col items-center bg-gray-100 p-10 min-h-screen">
       <motion.img
-        src="/image.jpg" // Remplace par l'URL de ton image
+        src="/Bille Brinelle 10mm (1).jpg" // Remplace par l'URL de ton image
         alt="Présentation de l'entreprise"
         className="w-full max-w-3xl mb-6 rounded-lg shadow-lg transition-transform transform hover:scale-105"
         initial={{ opacity: 0, scale: 0.8 }}
