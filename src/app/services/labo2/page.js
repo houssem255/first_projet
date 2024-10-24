@@ -16,7 +16,7 @@ const LaboratoireDeMetrologie = () => {
     <div className="bg-gray-900 text-gray-200">
       <div className="relative">
         <Image
-          src="/IMG_4042-imageonline.co-merged.jpg"
+          src="/Equipements CTIME.jpg"
           alt="Laboratoire de Métrologie Dimensionnelle"
           width={800}
           height={250}
