@@ -7,7 +7,7 @@ export function CarouselDefault() {
     <Carousel className="rounded-xl">
       <div className="relative w-full h-[400px]">
       <img
-          src="/7ème édition.jpg"
+          src="/mt55.jpg"
           alt="image 2"
           lazy = 'loading'
           className="h-full w-full object-contain rounded-xl" // Changement ici pour les images
