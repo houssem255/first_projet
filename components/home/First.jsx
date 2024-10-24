@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from "react";
+import Link from "next/link"
 import { Typewriter } from "react-simple-typewriter";
 import { BOL, Earth } from "../../svg";
 
@@ -40,7 +41,9 @@ export default function First() {
         </div>
       </div>
       <button className="mt-4 px-6 py-2 bg-red-600 text-white rounded-full shadow-lg hover:bg-red-500 transition duration-200 transform hover:scale-105">
+      <Link href="/ctime">
         En savoir plus
+        </Link> 
       </button>
     </section>
   );
