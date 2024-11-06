@@ -5,7 +5,7 @@ export default function Cantact_One() {
     <div className="w-full lg:w-1/2 mt-5 flex flex-col gap-3">
         <div className="flex items-center gap-2.5 border rounded-md px-4 py-2">
             <Image 
-              src="/avatar-12.webp" 
+              src="/images45.jfif" 
               alt="Aide d'entreprise" 
               title="Aide d'entreprise" 
               draggable="false" 
@@ -16,18 +16,18 @@ export default function Cantact_One() {
               style={{ backgroundColor: 'rgb(171, 70, 210)' }} 
             />
             <div>
-                <h5 className="mb-0 font-bold">Aide d&apos;entreprise</h5>
+                <h5 className="mb-0 font-bold"></h5>
                 <p className="text-gray-600 mb-0 text-sm flex gap-1">
-                    <span className="font-medium">+213</span>
-                    553714518
+                Tel : 0660 64 05 34
                 </p>
-                <p className="mb-0 text-gray-500 text-xs">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic delectus, repudiandae, facere eius et dolore dolores tempore commodi velit harum consequatur? Aliquam amet possimus ut architecto accusantium temporibus magnam molestias.</p>
+                
+                
             </div>
         </div>
         
         <div className="flex items-center gap-2.5 border rounded-md px-4 py-2">
             <Image 
-              src="/avatar-11.webp" 
+              src="/images98.jfif" 
               alt="Préoccupations RH" 
               title="Préoccupations RH" 
               draggable="false" 
@@ -38,18 +38,17 @@ export default function Cantact_One() {
               style={{ backgroundColor: 'rgb(171, 70, 210)' }} 
             />
             <div>
-                <h5 className="mb-0 font-bold">Préoccupations RH</h5>
+                
                 <p className="text-gray-600 mb-0 text-sm flex gap-1">
-                    <span className="font-medium">+213</span>
-                    666410964
+                Email: commercial@ctime.dz
                 </p>
-                <p className="mb-0 text-gray-500 text-xs">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic delectus, repudiandae, facere eius et dolore dolores tempore commodi velit harum consequatur? Aliquam amet possimus ut architecto accusantium temporibus magnam molestias.</p>
+               
             </div>
         </div>
 
         <div className="flex items-center gap-2.5 border rounded-md px-4 py-2">
             <Image 
-              src="/avatar-15.webp" 
+              src="/images23.png" 
               alt="Soutien technique" 
               title="Soutien technique" 
               draggable="false" 
@@ -60,12 +59,12 @@ export default function Cantact_One() {
               style={{ backgroundColor: 'rgb(171, 70, 210)' }} 
             />
             <div>
-                <h5 className="mb-0 font-bold">Soutien technique</h5>
-                <p className="text-gray-600 mb-0 text-sm flex gap-1">
-                    <span className="font-medium">+213</span>
-                    770896245
+                
+                <p className="text-gray-600 mb-0 text-sm flex gap-1">Adresse : Zone Industrielle ENMTP – Ain Smara
                 </p>
-                <p className="mb-0 text-gray-500 text-xs">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic delectus, repudiandae, facere eius et dolore dolores tempore commodi velit harum consequatur? Aliquam amet possimus ut architecto accusantium temporibus magnam molestias.</p>
+                <p className="text-gray-600 mb-55 text-sm flex gap-55"> Constantine – Algérie</p>
+            
+               
             </div>
         </div>
     </div>

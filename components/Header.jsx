@@ -55,9 +55,9 @@ export default function Navbar() {
     <div>
     <header className="bg-gray-200">
   <div className="text-center py-3">
-    <p className="text-lg md:text-xl font-bold">République Algérienne Démocratique et Populaire</p>
-    <p className="text-lg md:text-xl font-bold">Ministère de l&apos;Industrie et de la Production Pharmaceutique</p>
-    <p className="text-lg md:text-xl font-bold">Centre Technique Industriel des Industries Mécaniques et Transformatrices des Métaux</p>
+    <p className="text-lg md:text-xl ">République Algérienne Démocratique et Populaire</p>
+    <p className="text-lg md:text-xl ">Ministère de l&apos;Industrie et de la Production Pharmaceutique</p>
+    <p className="text-lg md:text-xl ">Centre Technique Industriel des Industries Mécaniques et Transformatrices des Métaux</p>
   </div>
 </header>
 
@@ -67,8 +67,6 @@ export default function Navbar() {
           <div className="flex items-center space-x-3">
             <Link href="/" className="block px-4 py-2 hover:bg-gray-200items-center">
               <Image src="/ctime.png" className="h-10" alt="Logo CTIME" width={80} height={60} />
-              </Link>
-              <Link href="/" className="block px-4 py-2 hover:bg-gray-200items-center">
               <p className="text-size font-semibold text-gray-800">Votre compagnon vers la qualité</p>
             </Link>
           </div>

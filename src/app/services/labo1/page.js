@@ -1,94 +1,110 @@
-"use client";
+'use client';
 
 import Link from 'next/link';
 import React, { useEffect, useState } from 'react';
 import { FaTools, FaRulerCombined, FaCogs, FaDraftingCompass, FaCheckCircle, FaObjectGroup } from 'react-icons/fa';
-import Image from 'next/image'; 
+import Image from 'next/image';
 
 const LaboratoireDeMetrologie = () => {
   const [isVisible, setIsVisible] = useState(false);
+  const [hoveredIndex, setHoveredIndex] = useState(null);
 
-  // Hook pour déclencher les animations à l'entrée de la page
   useEffect(() => {
     setIsVisible(true);
   }, []);
 
+  const services = [
+    { icon: <FaTools className="text-4xl text-red-600 mx-auto mb-4" />, title: "Etalonnage dimensionnelle", description: "Étalonnage précis des instruments à cote variable et des étalons de référence.", link: '/etalo', imgSrc: '/EtalCale.JPG' },
+    { icon: <FaRulerCombined className="text-4xl text-red-600 mx-auto mb-4" />, title: "Inspection d&apos;engrenage", description: "Étalonnage précis des instruments à cote variable et des étalons de référence.", link: '/engrenage', imgSrc: '/Engrenage.png' },
+    { icon: <FaCogs className="text-4xl text-red-600 mx-auto mb-4" />, title: "Vérification de moyens de production", description: "Vérification des formes, des positions et des états de surface.", imgSrc: '/Eprouvette.jpg' },
+    { icon: <FaDraftingCompass className="text-4xl text-red-600 mx-auto mb-4" />, title: "Etat de surface et contour de profil", description: "Expertise et mesure des pièces complexes avec précision.", imgSrc: '/456.png' },
+    { icon: <FaCheckCircle className="text-4xl text-red-600 mx-auto mb-4" />, title: "Pièces complexe", description: "Contrôle rigoureux des moyens de production pour une qualité optimale.", imgSrc: '/Piece chaoui.png' },
+    { icon: <FaObjectGroup className="text-4xl text-red-600 mx-auto mb-4" />, title: "Pièces volumineuse", description: "Réalisation de rétro-conception et vérification de pièces volumineuses.", link: '/Retro', imgSrc: '/Flexion.JPG' },
+    { icon: <FaObjectGroup className="text-4xl text-red-600 mx-auto mb-4" />, title: "Digitalisation 3D", description: "Réalisation de rétro-conception et vérification de pièces volumineuses.", link: '/Retro', imgSrc: '/tata.png' },
+  ];
+
   return (
     <div className="bg-gray-100">
-      {/* Bannière d'introduction avec animation de fondu et de glissement */}
       <div className="relative">
         <Image
           src="/Equipements CTIME.jpg"
           alt="Laboratoire de Métrologie Dimensionnelle"
           className={`w-full h-[250px] object-cover transform transition-transform duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-[-50px]'}`}
-          width={1000} 
-          height={250} 
+          width={1000}
+          height={250}
         />
       </div>
 
-      {/* Section Description avec animation d'apparition */}
-      <div className={`container mx-auto px-4 py-12 transition-opacity duration-1000 delay-500 ${isVisible ? 'opacity-100' : 'opacity-0'}`}>
+      <div 
+        className={`container mx-auto px-4 py-12 transition-opacity duration-1000 delay-500 ${isVisible ? 'opacity-100' : 'opacity-0'}`}
+        style={{
+          backgroundImage: 'url(/4872987.jpg)', // Remplacez par le chemin de votre image
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundRepeat: 'no-repeat',
+        }}
+      >
         <h1 className={`text-5xl font-bold text-black transition-opacity duration-1000 delay-200 ${isVisible ? 'opacity-100' : 'opacity-0'}`}>
           Laboratoire de Métrologie Dimensionnelle
         </h1>
-        <p className="text-center text-lg text-gray-800 mb-8">
-          La <strong>métrologie</strong> est la science de la mesure. Elle définit les principes et les méthodes permettant de garantir et maintenir la confiance envers les mesures résultant des processus de mesure. Il s&apos;agit d&apos;une science transversale qui s&apos;applique dans tous les domaines où des mesures quantitatives sont effectuées.
+        <p className="text-center text-lg text-black mb-8">
+          Vous souhaitez garantir la précision de vos mesures ? Notre laboratoire de métrologie dimensionnelle vous offre une gamme complète de services pour vérifier et certifier les dimensions de vos pièces et composants.
         </p>
+        <h2 className="text-3xl font-semibold text-black my-4">La métrologie dimensionnelle : l&apos;art de la mesure précise</h2>
+        <p className="text-lg text-black mb-4">
+          La métrologie dimensionnelle est essentielle pour assurer la conformité des dimensions des pièces, garantissant ainsi leur bon fonctionnement et leur interchangeabilité.
+        </p>
+
+        <h3 className="text-2xl font-semibold text-black mb-2">Pourquoi réaliser des contrôles de métrologie dimensionnelle ?</h3>
+        <ul className="list-disc list-inside text-black mb-4">
+          <li><strong>Précision :</strong> Assurer des mesures exactes pour une qualité optimale.</li>
+          <li><strong>Conformité :</strong> Vérifier que les pièces respectent les normes et spécifications.</li>
+          <li><strong>Amélioration continue :</strong> Identifier les écarts et optimiser les processus de fabrication.</li>
+          <li><strong>Fiabilité :</strong> Renforcer la confiance dans les produits finis.</li>
+        </ul>
+
+        <h3 className="text-2xl font-semibold text-black mb-2">Les paramètres mesurés</h3>
+        <ul className="list-disc list-inside text-black mb-4">
+          <li><strong>Longueur :</strong> Mesure de la distance entre deux points.</li>
+          <li><strong>Largeur :</strong> Dimension transversale d&apos;une pièce.</li>
+          <li><strong>Hauteur :</strong> Distance verticale d&apos;une pièce.</li>
+          <li><strong>Angle :</strong> Mesure de l&apos;écart entre deux lignes.</li>
+          <li><strong>Rugosité :</strong> Vérification de la circularité d&apos;un objet.</li>
+          <li><strong>Cylindricité :</strong> Rupture sous charge répétée.</li>
+        </ul>
 
         <h2 className="text-3xl font-semibold text-center text-black mb-10">Nos services</h2>
 
-        {/* Section Services avec des icônes et animation de zoom au survol */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 text-center">
-          <div className="bg-gray-800 p-6 rounded-lg shadow-lg transform transition-transform duration-500 hover:scale-105">
-            <FaTools className="text-4xl text-red-600 mx-auto mb-4" />
-            <Link href={'/etalo'}>
-              <h3 className="text-xl font-semibold text-gray-200 mb-2">Équipement moderne et adapté</h3>
-            </Link>
-            <p className="text-gray-400">Des mesures précises à l&apos;aide d&apos;équipements de pointe et de formations spécialisées.</p>
-          </div>
-
-          <div className="bg-black p-6 rounded-lg shadow-lg transform transition-transform duration-500 hover:scale-105">
-            <FaRulerCombined className="text-4xl text-red-600 mx-auto mb-4" />
-            <Link href={'/etalo'}>
-              <h3 className="text-xl font-semibold text-gray-200 mb-2">Étalonnage des instruments</h3>
-            </Link>
-            <p className="text-gray-400">Étalonnage précis des instruments à cote variable et des étalons de référence.</p>
-          </div>
-
-          <div className="bg-gray-800 p-6 rounded-lg shadow-lg transform transition-transform duration-500 hover:scale-105">
-            <FaCogs className="text-4xl text-red-600 mx-auto mb-4" />
-            <h3 className="text-xl font-semibold text-gray-200 mb-2">Contrôle des formes et des surfaces</h3>
-            <p className="text-gray-400">Vérification des formes, des positions et des états de surface.</p>
-          </div>
-
-          <div className="bg-black p-6 rounded-lg shadow-lg transform transition-transform duration-500 hover:scale-105">
-            <FaDraftingCompass className="text-4xl text-red-600 mx-auto mb-4" />
-            <h3 className="text-xl font-semibold text-gray-200 mb-2">Mesure de pièces complexes</h3>
-            <p className="text-gray-400">Expertise et mesure des pièces complexes avec précision.</p>
-          </div>
-
-          <div className="bg-gray-800 p-6 rounded-lg shadow-lg transform transition-transform duration-500 hover:scale-105">
-            <FaCheckCircle className="text-4xl text-red-600 mx-auto mb-4" />
-            <h3 className="text-xl font-semibold text-gray-200 mb-2">Vérification des moyens de production</h3>
-            <p className="text-gray-400">Contrôle rigoureux des moyens de production pour une qualité optimale.</p>
-          </div>
-
-          <div className="bg-black p-6 rounded-lg shadow-lg transform transition-transform duration-500 hover:scale-105">
-            <FaObjectGroup className="text-4xl text-red-600 mx-auto mb-4" />
-            <Link href={'/Retro'}>
-              <h3 className="text-xl font-semibold text-gray-200 mb-2">Rétro-conception</h3>
-            </Link>
-            <p className="text-gray-400">Réalisation de rétro-conception et vérification de pièces volumineuses.</p>
-          </div>
+          {services.map(({ icon, title, description, link, imgSrc }, index) => (
+            <div
+              key={index}
+              className={`relative overflow-hidden transition-all duration-500 ${hoveredIndex === index ? 'scale-150' : 'scale-75'}`}
+              onMouseEnter={() => setHoveredIndex(index)}
+              onMouseLeave={() => setHoveredIndex(null)}
+            >
+              <Image
+                src={imgSrc}
+                alt={title}
+                className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-500 ${hoveredIndex === index ? 'opacity-80' : 'opacity-100'}`}
+                width={300}
+                height={200}
+              />
+              <div className="relative z-10 p-4">
+                {link ? (
+                  <Link href={link}>
+                    <h3 className="text-xl font-semibold text-black mb-2">{title}</h3>
+                  </Link>
+                ) : (
+                  <h3 className="text-xl font-semibold text-black mb-2">{title}</h3>
+                )}
+                {icon}
+                <p className="text-black">{description}</p>
+              </div>
+            </div>
+          ))}
         </div>
       </div>
-
-      {/* Pied de page */}
-      <footer className="bg-black text-gray-200 py-6 mt-12">
-        <div className="container mx-auto text-center">
-          <p className="text-sm">&copy; 2024 Laboratoire de Métrologie Dimensionnelle. Tous droits réservés.</p>
-        </div>
-      </footer>
     </div>
   );
 };

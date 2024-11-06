@@ -1,4 +1,3 @@
-
 "use client";
 import React from 'react';
 
@@ -35,11 +34,14 @@ const videos = [
 
 const Videos = () => {
   return (
-    <div style={{
-      padding: '40px',
-      textAlign: 'center',
-      background: 'linear-gradient(to right, #e0f7fa, #80deea)',
-      fontFamily: 'Arial, sans-serif',
+    
+    
+    <div className="flex flex-col items-center p-10 min-h-screen"
+    style={{
+      backgroundImage: "url('/5320.jpg')", // Remplacez par le chemin de votre image
+      backgroundSize: "cover", // Fait en sorte que l'image couvre toute la surface
+      backgroundPosition: "center", // Centre l'image
+      backgroundRepeat: "no-repeat", // Empêche la répétition de l'image
     }}>
       <h1 style={{
         color: '#004d40',

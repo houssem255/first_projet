@@ -1,9 +1,17 @@
 import React from "react";
 import Link from 'next/link';
 import { MdScience, MdEngineering, MdBuild, MdPrecisionManufacturing } from 'react-icons/md';
+
 export default function PresentationCTIME() {
   return (
-    <div className="container mx-auto p-6">
+    <div 
+      className="container mx-auto p-6"
+      style={{
+        backgroundImage: "url('/4872987.jpg')", // Replace with your image path
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
+    >
       {/* Section bannière avec animation */}
       <div className="relative mb-10">
         <div className="overflow-hidden rounded-lg shadow-lg">
@@ -18,6 +26,7 @@ export default function PresentationCTIME() {
           Présentation du CTIME
         </h1>
       </div>
+
       {/* Introduction */}
       <section className="bg-gray-50 p-6 rounded-lg shadow-md mb-10">
         <p className="mb-4 text-lg text-gray-700">
@@ -103,6 +112,7 @@ export default function PresentationCTIME() {
           </div>
         </div>
       </section>
+
       {/* Fiche technique */}
       <section className="bg-gray-100 p-6 mt-12 rounded-lg shadow-md">
         <h2 className="text-3xl font-semibold mb-6">FICHE TECHNIQUE DU CTIME</h2>
