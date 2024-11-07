@@ -6,14 +6,15 @@ const services = [
   {
     step: "01",
     name: "Laboratoire d'Essais Mécaniques",
-    imageUrl: "/labo1.jpg",
+    imageUrl: "/20210322_092413.jpg",
     description: "Notre laboratoire d'essais mécaniques est équipé pour réaliser une variété d'essais sur les matériaux. Nous nous engageons à fournir des résultats précis et fiables pour aider nos clients à prendre des décisions éclairées sur leurs matériaux.",
     link: "/services/labo2",
   },
   {
+    
     step: "02",
     name: "Laboratoire de Métrologie Dimensionnelle",
-    imageUrl: "/alo.png",
+    imageUrl: "/labo1.jpg",
     description: "Le laboratoire de métrologie dimensionnelle est spécialisé dans la mesure précise des dimensions et des tolérances des pièces. Nous nous engageons à fournir des résultats précis et fiables pour aider nos clients à prendre des décisions éclairées sur leurs matériaux.",
     link: "/services/labo1",
   },

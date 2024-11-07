@@ -41,7 +41,7 @@ export default function First() {
           <ul className="list-disc list-inside">
             <li>Machine à Mesurer Tridimensionnelle de haute précision  </li>
             <li>Bras de mesure 7 axes avec scanner </li>
-            <li>-Laser tracker </li>
+            <li>Laser tracker </li>
             <li>Interféromètre laser </li>
             <li>Bancs d&apos;étalonnage d&apos;ESM </li>
           </ul>
@@ -50,7 +50,7 @@ export default function First() {
         {/* Colonne de droite */}
         <div>
           <ul className="list-disc list-inside">
-            <li>Machine d&apos;essais universel 600 KN avec four</li>
+            <li>Machine d&apos;essais universel 600 KN avec four jusqua 1200°c</li>
             <li>Duromètre (HB, HV et HRC)</li>
             <li>Pendule de charpy</li>
             <li>Machine de fatique</li>
@@ -72,15 +72,15 @@ export default function First() {
         <div className="flex items-center gap-2 p-2 border-l-4 border-red-600 rounded-lg shadow-lg transition-shadow duration-300 bg-white hover:shadow-xl transform hover:scale-105">
           <Earth size={40} color={'red'} />
           <div>
-            <h2 className="font-semibold text-sm text-black">Support 24/7</h2>
-            <p className="text-gray-600 text-xs">Nous sommes là pour vous.</p>
+            <h2 className="font-semibold text-sm text-black">0660 64 05 34.</h2>
+          
           </div>
         </div>
         <div className="flex items-center gap-2 p-2 border-l-4 border-red-600 rounded-lg shadow-lg transition-shadow duration-300 bg-white hover:shadow-xl transform hover:scale-105">
           <BOL size={40} color={'red'} />
           <div>
-            <h2 className="font-semibold text-sm text-black">Agence Récompensée</h2>
-            <p className="text-gray-600 text-xs">Votre satisfaction est notre priorité.</p>
+            <h2 className="font-semibold text-sm text-black">contact@ctime.dz</h2>
+            
           </div>
         </div>
       </div>

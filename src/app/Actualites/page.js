@@ -5,6 +5,7 @@ import Image from 'next/image';
 import Head from 'next/head'
 export default function Actualites() {
   const [articles,setArticles] = useState([
+    
     {
       title: "Participation à ALGEST 2023",
       date: "Actualités / Par admin",
