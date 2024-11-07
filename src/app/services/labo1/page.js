@@ -15,7 +15,7 @@ const LaboratoireDeMetrologie = () => {
 
   const services = [
     { icon: <FaTools className="text-4xl text-red-600 mx-auto mb-4" />, title: "Etalonnage dimensionnelle", description: "Étalonnage précis des instruments à cote variable et des étalons de référence.", link: '/etalo', imgSrc: '/EtalCale.JPG' },
-    { icon: <FaRulerCombined className="text-4xl text-red-600 mx-auto mb-4" />, title: "Inspection d&apos;engrenage", description: "Étalonnage précis des instruments à cote variable et des étalons de référence.", link: '/engrenage', imgSrc: '/Engrenage.png' },
+    { icon: <FaRulerCombined className="text-4xl text-red-600 mx-auto mb-4" />, title: "Inspection d'engrenage", description: "Étalonnage précis des instruments à cote variable et des étalons de référence.", link: '/engrenage', imgSrc: '/Engrenage.png' },
     { icon: <FaCogs className="text-4xl text-red-600 mx-auto mb-4" />, title: "Vérification de moyens de production", description: "Vérification des formes, des positions et des états de surface.", imgSrc: '/Eprouvette.jpg' },
     { icon: <FaDraftingCompass className="text-4xl text-red-600 mx-auto mb-4" />, title: "Etat de surface et contour de profil", description: "Expertise et mesure des pièces complexes avec précision.", imgSrc: '/456.png' },
     { icon: <FaCheckCircle className="text-4xl text-red-600 mx-auto mb-4" />, title: "Pièces complexe", description: "Contrôle rigoureux des moyens de production pour une qualité optimale.", imgSrc: '/Piece chaoui.png' },

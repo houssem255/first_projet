@@ -13,7 +13,7 @@ const services = [
   {
     step: "02",
     name: "Laboratoire de Métrologie Dimensionnelle",
-    imageUrl: "/labo1.jpg",
+    imageUrl: "/alo.png",
     description: "Le laboratoire de métrologie dimensionnelle est spécialisé dans la mesure précise des dimensions et des tolérances des pièces. Nous nous engageons à fournir des résultats précis et fiables pour aider nos clients à prendre des décisions éclairées sur leurs matériaux.",
     link: "/services/labo1",
   },

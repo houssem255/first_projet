@@ -35,13 +35,29 @@ export default function First() {
         Forts de notre expertise et d&apos;une technologie de pointe, nous utilisons des outils avancés tels que :
       </p>
 
-      <ul className="text-black text-sm mb-2 leading-relaxed text-left px-2 list-disc list-inside">
-        <li>Machine à Mesurer Tridimensionnelle de haute précision</li>
-        <li>Bras de mesure 7 axes avec scanner</li>
-        <li>Laser tracker</li>
-        <li>Interféromètre laser</li>
-        <li>Bancs d&apos;étalonnage d&apos;ESM</li>
-      </ul>
+      <div className="grid grid-cols-2 gap-4 text-black text-sm mb-2 leading-relaxed text-left px-2">
+        {/* Colonne de gauche */}
+        <div>
+          <ul className="list-disc list-inside">
+            <li>Machine à Mesurer Tridimensionnelle de haute précision  </li>
+            <li>Bras de mesure 7 axes avec scanner </li>
+            <li>-Laser tracker </li>
+            <li>Interféromètre laser </li>
+            <li>Bancs d&apos;étalonnage d&apos;ESM </li>
+          </ul>
+        </div>
+        
+        {/* Colonne de droite */}
+        <div>
+          <ul className="list-disc list-inside">
+            <li>Machine d&apos;essais universel 600 KN avec four</li>
+            <li>Duromètre (HB, HV et HRC)</li>
+            <li>Pendule de charpy</li>
+            <li>Machine de fatique</li>
+            <li>Machine universel 5 KN</li>
+          </ul>
+        </div>
+      </div>
 
       <p className="text-black text-sm mb-2 leading-relaxed text-left px-2">
         Notre engagement envers la qualité, la réactivité et l&apos;innovation nous permet de fournir des services fiables et performants, adaptés aux besoins spécifiques de chaque client. Avec CTIME, bénéficiez d&apos;une expertise reconnue pour :
