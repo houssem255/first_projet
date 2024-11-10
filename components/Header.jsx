@@ -54,11 +54,38 @@ export default function Navbar() {
   return (
     <div>
     <header className="bg-gray-200">
-  <div className="text-center py-3">
-    <p className="text-lg md:text-xl ">République Algérienne Démocratique et Populaire</p>
-    <p className="text-lg md:text-xl ">Ministère de l&apos;Industrie et de la Production Pharmaceutique</p>
-    <p className="text-lg md:text-xl ">Centre Technique Industriel des Industries Mécaniques et Transformatrices des Métaux</p>
-  </div>
+    <div className="text-center py-3">
+      <p
+        className="text-lg md:text-xl"
+        style={{
+          fontFamily: "'Roboto', sans-serif",  // Remplace par ta police de préférence
+          letterSpacing: '2px',                // Ajuste l'espacement entre les lettres
+          fontSize: '14px'                     // Réduit la taille des caractères
+        }}
+      >
+        République Algérienne Démocratique et Populaire
+      </p>
+      <p
+        className="text-lg md:text-xl"
+        style={{
+          fontFamily: "'Roboto', sans-serif",  // Remplace par ta police de préférence
+          letterSpacing: '2px',                // Ajuste l'espacement entre les lettres
+          fontSize: '14px'                     // Réduit la taille des caractères
+        }}
+      >
+        Ministère de l&apos;Industrie et de la Production Pharmaceutique
+      </p>
+      <p
+        className="text-lg md:text-xl"
+        style={{
+          fontFamily: "'Roboto', sans-serif",  // Remplace par ta police de préférence
+          letterSpacing: '2px',                // Ajuste l'espacement entre les lettres
+          fontSize: '14px'                     // Réduit la taille des caractères
+        }}
+      >
+        Centre Technique Industriel des Industries Mécaniques et Transformatrices des Métaux
+      </p>
+    </div>
 </header>
 
 

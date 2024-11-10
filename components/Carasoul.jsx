@@ -55,12 +55,7 @@ export function CarouselDefault() {
           loading="lazy"
           className="h-full w-full object-contain rounded-xl"
         />
-        <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white p-4 flex flex-col items-center">
-          <h2 className="text-lg font-bold">programme PADICA</h2>
-          <p>
-            Dans le cadre du programme PADICA, une visite de travail a été effectuée au niveau du CTIME par les représentants de Délégation de l&apos;Union Européenne accompagnée par la Directrice Nationale du Programme.
-          </p>
-        </div>
+       
       </div>
 
       {/* Troisième image */}
@@ -71,7 +66,7 @@ export function CarouselDefault() {
           loading="lazy"
           className="h-full w-full object-contain rounded-xl"
         />
-        <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white p-4 flex flex-col items-center">
+        <div className="absolute bottom-0 left-10 right-10 bg-black bg-opacity-50 text-white p-4 flex flex-col items-center">
           <h2 className="text-lg font-bold"> programme PADICA</h2>
           <p>
           Dans le cadre du programme PADICA, une visite de travail a été effectuée au niveau du CTIME par les représentants de Délégation de l&apos;Union Européenne accompagnée par la Directrice Nationale du Programme.
@@ -88,7 +83,7 @@ export function CarouselDefault() {
           loading="lazy"
           className="h-full w-full object-contain rounded-xl"
         />
-        <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white p-4 flex flex-col items-center">
+        <div className="absolute bottom-0 left-10 right-10 bg-black bg-opacity-50 text-white p-4 flex flex-col items-center">
           <h2 className="text-lg font-bold">formation Introduction à la science des matériaux organisée </h2>
           <p>
           Première session de formation intitulée: Introduction à la science des matériaux organisée par le CTIME dans le cadre du programme PADICA au niveau de l&apos;INPED Boumerdas qui se déroulera du 24 au 26 Décembre 2023.

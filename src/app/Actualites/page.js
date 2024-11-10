@@ -5,6 +5,30 @@ import Image from 'next/image';
 import Head from 'next/head'
 export default function Actualites() {
   const [articles,setArticles] = useState([
+    {
+      title: "Inauguration du complexe FONDERIE EURO MOTEUR",
+      date: "Actualités / Par admin",
+      img: "./1730887992495-imageonline.co-merged.jpg",
+      description: "En date du 30 Octobre 2024 le CTIME a pris part en tant que partenaire technique à l'inauguration du complexe FONDERIE EURO MOTEUR au niveau de la zone industrielle de la commune de MAGRA - Wilaya de M'SILA. Le complexe est spécialisé dans la production de pièces pour divers véhicules industriels et engins, d'une capacité de 10 000 T/An et compte 200 salariés en majorité des jeunes. Le complexe est équipé de machines de production de dernière génération et d'un personnel technique."
+    },
+    {
+      title: "salon international de la sous-traitance industrielle",
+      date: "Actualités / Par admin",
+      img: "./ALGEST 2024.jpg",
+      description: ""
+    },
+    {
+      title: "programme PADICA",
+      date: "Actualités / Par admin",
+      img: "./437523900_416316127824869_7814901483781890104_n-imageonline.co-merged.jpg",
+      description: "Dans le cadre du programme PADICA, une visite de travail a été effectuée au niveau du CTIME par les représentants de Délégation de l'Union Européenne accompagnée par la Directrice Nationale du Programme."
+    },
+    {
+      title: "formation Introduction à la science des matériaux organisée",
+      date: "Actualités / Par admin",
+      img: "./IMG_3436-imageonline.co-merged.jpg",
+      description: "Première session de formation intitulée: Introduction à la science des matériaux organisée par le CTIME dans le cadre du programme PADICA au niveau de l'INPED Boumerdas qui se déroulera du 24 au 26 Décembre 2023."
+    },
     
     {
       title: "Participation à ALGEST 2023",
@@ -63,19 +87,19 @@ export default function Actualites() {
   }, []);
 
   return (
-    <div className="max-w-3xl mx-auto p-5 bg-gradient-to-br from-blue-100 to-white">
+    <div className="max-w-3xl mx-auto p-5 bg-gradient-to-br from-black  to-white">
       <Head>
         <title>Actualités - CTIME</title>
         <meta name="description" content="Actualités et événements du CTIME." />
       </Head>
 
       <main className="bg-white rounded-lg shadow-lg p-6 border border-gray-300">
-        <h1 className="text-4xl text-center font-extrabold text-blue-800 mb-6 drop-shadow-lg">Actualités</h1>
+        <h1 className="text-4xl text-center font-extrabold text-black  mb-6 drop-shadow-lg">Actualités</h1>
 
         <div className="space-y-8">
           {articles.map((article, index) => (
             <article className="article border-b border-gray-300 pb-4 hover:shadow-2xl transition-shadow duration-300 rounded-lg p-4 bg-gray-50 hover:bg-gray-100" key={index}>
-              <h2 className="text-2xl font-semibold text-blue-700 hover:text-blue-900 transition-colors">{article.title}</h2>
+              <h2 className="text-2xl font-semibold text-black  hover:text-black  transition-colors">{article.title}</h2>
               <p className="text-gray-500 text-sm">{article.date}</p>
               <img
                 src={article.img} 

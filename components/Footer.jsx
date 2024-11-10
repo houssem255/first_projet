@@ -14,9 +14,11 @@ export default function Footer() {
             
             <div>
               <h3 className="text-lg font-bold mb-4">Adresse</h3>
-              <p className="text-gray-300">123 Rue de Exemple, Ville</p>
+              <p className="text-gray-300">Zone Industrielle ENMTP – Ain Smara
+
+                       Constantine</p>
               <p className="text-gray-300">Code Postal</p>
-              <p className="text-gray-300">Pays</p>
+              <p className="text-gray-300">Algérie</p>
             </div>
   
             
@@ -47,9 +49,6 @@ export default function Footer() {
                
 
 
-                <li className="text-gray-300 hover:scale-110 hover:text-white ease-out duration-200"><Link href="/about"  >À propos</Link></li>
-                <li className="text-gray-300 hover:scale-110 hover:text-white ease-out duration-200"><Link href="/services"  >Services</Link></li>
-                <li className="text-gray-300 hover:scale-110 hover:text-white ease-out duration-200"><Link href="/contact" >Nous Contacter</Link></li>
               </ul>
             </div>
           </div>

@@ -1,5 +1,5 @@
 import React from "react"; 
-import Link from 'next/link';
+import Link from 'next/link'; 
 import { WrenchScrewdriverIcon } from "@heroicons/react/20/solid";
 
 const services = [
@@ -11,7 +11,6 @@ const services = [
     link: "/services/labo2",
   },
   {
-    
     step: "02",
     name: "Laboratoire de Métrologie Dimensionnelle",
     imageUrl: "/labo1.jpg",
@@ -25,14 +24,14 @@ const FlipCardComponent = () => {
     <section 
       className="bg-gray-100 min-h-screen w-full" 
       style={{
-        backgroundImage: "url('/5676719.jpg')", // Replace with your image path
+        backgroundImage: "url('/5676719.jpg')", // Remplacez par votre propre image
         backgroundSize: 'cover',
         backgroundPosition: 'center',
       }}
     >
       <div className="mx-auto flex justify-center object-center px-4 sm:py-24 lg:max-w-7xl">
         <div className="flex justify-center object-center flex-col gap-12 sm:gap-16">
-          <h2 className="text-4xl font-bold tracking-tight text-gray-950 sm:text-5xl lg:text-6xl text-center shadow-md p-4 rounded-lg bg-gradient-to-r from-gray-300 to-red-700">
+          <h2 className="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl lg:text-6xl text-center mb-16">
             Nos Laboratoires
           </h2>
 
@@ -44,7 +43,8 @@ const FlipCardComponent = () => {
                     className="absolute inset-0 h-full w-full rounded-xl bg-cover bg-center transition duration-300"
                     style={{ backgroundImage: `url(${service.imageUrl})`, backgroundSize: 'cover' }}
                   >
-                    <h2 className="absolute bottom-4 left-1/2 transform -translate-x-1/2 text-2xl font-extrabold text-white bg-black bg-opacity-70 px-4 py-2 rounded-lg shadow-lg">
+                    {/* Titre rond, sur une seule ligne, sans rupture */}
+                    <h2 className="absolute bottom-4 left-1/2 transform -translate-x-1/2 text-sm font-semibold text-white bg-black bg-opacity-60 px-6 py-2 rounded-full shadow-xl max-w-[90%] whitespace-nowrap text-center">
                       {service.name}
                     </h2>
                   </div>
@@ -52,9 +52,9 @@ const FlipCardComponent = () => {
                   <div className="absolute inset-0 h-full w-full rounded-xl bg-gray-800 px-8 text-center text-white [transform:rotateY(180deg)] [backface-visibility:hidden]">
                     <div className="flex min-h-full flex-col items-center justify-center">
                       <p className="text-lg text-center mb-4">{service.description}</p>
-                      <button className="my-2 bg-red-600 hover:bg-red-500 text-white font-bold py-2 px-4 w-auto rounded-full inline-flex items-center shadow-md transition duration-300">
+                      <button className="my-2 bg-gradient-to-r from-red-600 to-red-500 hover:bg-gradient-to-r hover:from-red-500 hover:to-red-400 text-white font-bold py-2 px-4 w-auto rounded-full inline-flex items-center shadow-md transition duration-300">
                         <Link href={service.link}>
-                          <span>Schedule Service</span>
+                          <span>En savoir plus</span>
                         </Link>
                         <WrenchScrewdriverIcon className="h-6 w-6 ml-2" />
                       </button>
