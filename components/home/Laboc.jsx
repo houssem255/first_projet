@@ -31,7 +31,7 @@ const FlipCardComponent = () => {
     >
       <div className="mx-auto flex justify-center object-center px-4 sm:py-24 lg:max-w-7xl">
         <div className="flex justify-center object-center flex-col gap-12 sm:gap-16">
-          <h2 className="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl lg:text-6xl text-center mb-16">
+          <h2 className="text-4xl font-bold tracking-tight text-gray-950 sm:text-5xl lg:text-6xl text-center shadow-md p-4 rounded-lg bg-gradient-to-r from-gray-300 to-red-700">
             Nos Laboratoires
           </h2>
 
