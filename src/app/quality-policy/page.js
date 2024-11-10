@@ -58,7 +58,7 @@ export default function PresentationCTIME() {
 
         {/* Nom du directeur */}
         <div className="mt-8 text-right text-lg font-semibold text-gray-800">
-          Directeur : [Nom du Directeur]
+          Directeur 
         </div>
       </section>
     </div>

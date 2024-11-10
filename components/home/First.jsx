@@ -72,7 +72,7 @@ export default function First() {
         <div className="flex items-center gap-2 p-2 border-l-4 border-red-600 rounded-lg shadow-lg transition-shadow duration-300 bg-white hover:shadow-xl transform hover:scale-105">
           <Earth size={40} color={'red'} />
           <div>
-            <h2 className="font-semibold text-sm text-black">0660 64 05 34.</h2>
+            <h2 className="font-semibold text-sm text-black">0660 64 05 32.</h2>
           
           </div>
         </div>

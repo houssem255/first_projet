@@ -24,8 +24,8 @@ export default function Footer() {
             
             <div className="md:text-center">
               <h3 className="text-lg font-bold mb-4">Contact</h3>
-              <p className="text-gray-300"><a href="mailto:contact@example.com">contact@example.com</a></p>
-              <p>+123 456 789</p>
+              <p className="text-gray-300"><a href="mailto:contact@example.com"> contact@ctime.dz</a></p>
+              <p>0660 64 05 32</p>
             </div>
   
             

@@ -18,7 +18,7 @@ export default function Cantact_One() {
             <div>
                 <h5 className="mb-0 font-bold"></h5>
                 <p className="text-gray-600 mb-0 text-sm flex gap-1">
-                Tel : 0660 64 05 34
+                Tel : 0660 64 05 32
                 </p>
                 
                 
