@@ -19,6 +19,7 @@ export default function Footer() {
                        Constantine</p>
               <p className="text-gray-300">Code Postal</p>
               <p className="text-gray-300">Algérie</p>
+              
             </div>
   
             

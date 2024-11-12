@@ -110,7 +110,7 @@ const EtalonnagePage = () => {
   return (
     <div className="flex flex-col items-center bg-gray-100 p-10 min-h-screen">
       <motion.img
-        src="/2.jpg"
+        src="/59b74429-e2a7-4281-85af-9eed1f43f74d-imageonline.co-merged.png"
         alt="Étalonnage des Instruments"
         className="w-full max-w-3xl mb-6 rounded-lg shadow-lg transition-transform transform hover:scale-105"
         initial={{ opacity: 0, scale: 0.8 }}

@@ -1,17 +1,8 @@
 import React from "react";
-import Link from 'next/link';
-import { MdScience, MdEngineering, MdBuild, MdPrecisionManufacturing } from 'react-icons/md';
 
 export default function PresentationCTIME() {
   return (
-    <div 
-      className="container mx-auto p-6"
-      style={{
-        backgroundImage: "url('/4872987.jpg')", // Replace with your image path
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-      }}
-    >
+    <div className="container mx-auto p-6">
       {/* Section bannière avec animation */}
       <div className="relative mb-10">
         <div className="overflow-hidden rounded-lg shadow-lg">
@@ -23,109 +14,54 @@ export default function PresentationCTIME() {
           />
         </div>
         <h1 className="absolute bottom-6 left-6 text-4xl text-white font-bold drop-shadow-lg">
-          Présentation du CTIME
+        Présentation du CTIME
         </h1>
       </div>
+      {/* Introduction avec background image */}
+      <section className="bg-gray-50 p-6 rounded-lg shadow-md mb-10 bg-cover bg-center" style={{ backgroundImage: "url('/4872987.jpg')" }}>
+        <p className="mb-4  text-gray-700">
+        Le Centre Technique des Industries Mécaniques et transformatrices des
+Métaux « CTIME » a été créé par Décret exécutif n°10-215 du 16 septembre
+2010, dont le siège est fixé à Constantine.
+Le CTIME est un Etablissement Public à Caractère Industriel et Commercial
+« EPIC » et relève du Ministère de l’Industrie et de la production
+pharmaceutique.
+        </p>
+        <p className="mb-4  text-gray-700">
+        Le CTIME est un Etablissement Public à Caractère Industriel et Commercial « EPIC » et relève du Ministère de l’Industrie et de la production pharmaceutique.
 
-      {/* Introduction */}
-      <section className="bg-gray-50 p-6 rounded-lg shadow-md mb-10">
-        <p className="mb-4 text-lg text-gray-700">
-          Le Centre Technique des Industries Mécaniques et transformatrices des Métaux « CTIME » a été créé par Décret exécutif n°10-215 du 16 septembre 2010, dont le siège est fixé à Constantine. Le CTIME dispose d’une assiette foncière de 9000 m² en toute propriété, située au niveau du complexe mécanique d’Ain Smara- Constantine.
         </p>
-        <p className="mb-4 text-lg text-gray-700">
-          Le CTIME est un Etablissement Public à Caractère Industriel et Commercial « EPIC » et relève du Ministère de l’Industrie et des Mines. Sa création a été le fruit d&apos;une étude de faisabilité relative à la filière mécanique, dans le cadre du programme PME II.
+        <p className="mb-4  text-gray-700">
+        L'investissement en moyens de contrôle va de quelques milliers de Dinars à plusieurs dizaines de millions pour des machines de haute précision. Choisir les moyens adaptés aux vérifications qui sont nécessaires pour pouvoir certifier la qualité du produit n’est pas toujours une tâche facile. A cet effet le CTIME avec seulement deux des quatre laboratoires prévus propose aux opérateurs une gamme assez large d’essais et d’expertise conformément aux normes internationales, leurs présentant une meilleure vision de la qualité des produits avec des équipement modernes de dernière génération.
         </p>
-      </section>
-      
-      {/* Section Laboratoires */}
-      <section>
-        <h2 className="text-3xl font-semibold text-center mb-8 text-gray-800">Nos Laboratoires Spécialisés</h2>
+        <p className="mb-4  text-gray-700">
+        Au jour d’aujourd’hui le CTIME a été très bien accueilli par des opérateurs des filières mécaniques et transformation des métaux en particulier ceux du secteur de l’énergie et les PME.
+        </p>
+        <h2 className="mb-4 my-8 text-xl font-semibold">
+        A titre indicatif le CTIME se distingue déjà par des services :
+        </h2>
+        <h2 className="mb-4 my-8 text-xl font-semibold">
+        ETALONNAGE :
+        </h2 >
+        <p className="mb-4  text-gray-700">
+        C’est la comparaison des valeurs d’un instrument de mesure à celles d’un étalon, en associant les incertitudes. Cette comparaison permet d’estimer le biais de l’instrument.  Les valeurs obtenues par un étalonnage sont consignées dans un certificat d’étalonnage.
+A noter que cette opération est indispensable pour les entreprises concernées par les certifications et le CTIME est réellement équipé pour ces prestations dans le domaine dimensionnel.
+
+
+        </p>
+        <h1 className="mb-4 my-8 text-xl font-semibold">
+        ESSAIS MECANIQUES :
+        </h1>
+        <p className="mb-4  text-gray-700">Ensemble d’essais pour la caractérisation des matériaux métalliques à forte et faible résistance, le CTIME est en mesure de réaliser un essai de traction à haute température allant jusqu’à 1200°C.</p>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
-          
-          {/* Laboratoire d'essais mécaniques */}
-          <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
-            <div className="flex items-center mb-4">
-              <MdScience className="text-4xl text-red-600 mr-3" />
-              <Link href={'/services/labo2'}>
-                <h3 className="text-2xl font-semibold">Laboratoire d&apos;essais mécaniques</h3>
-              </Link>
-            </div>
-            <p className="text-gray-700 mb-4">
-              Ensemble d’essais pour la caractérisation des matériaux métalliques à forte et faible résistance.
-            </p>
-            <ul className="list-disc pl-6 text-gray-700 space-y-2">
-              <li>Essai de traction statique</li>
-              <li>Essai de résilience</li>
-              <li>Mesures de dureté (Vickers, Brinell, Rockwell)</li>
-              <li>Essai de fatigue</li>
-            </ul>
-          </div>
-          
-          {/* Laboratoire de métrologie dimensionnelle */}
-          <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
-            <div className="flex items-center mb-4">
-              <MdPrecisionManufacturing className="text-4xl text-red-600 mr-3" />
-              <h3 className="text-2xl font-semibold">Laboratoire de métrologie dimensionnelle</h3>
-            </div>
-            <p className="text-gray-700 mb-4">
-              Science de la mesure garantissant des mesures fiables dans tous les processus de production.
-            </p>
-            <ul className="list-disc pl-6 text-gray-700 space-y-2">
-              <li>Étalonnage des instruments de mesure</li>
-              <li>Contrôle de formes et de surfaces</li>
-              <li>Rétro conception</li>
-            </ul>
-          </div>
-          
-          {/* Laboratoire de contrôle non destructif */}
-          <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
-            <div className="flex items-center mb-4">
-              <MdBuild className="text-4xl text-red-600 mr-3" />
-              <h3 className="text-2xl font-semibold">Laboratoire de contrôle non destructif</h3>
-            </div>
-            <p className="text-gray-700 mb-4">
-              Ensemble de méthodes pour caractériser l&apos;état d&apos;intégrité des structures ou matériaux sans les dégrader.
-            </p>
-            <ul className="list-disc pl-6 text-gray-700 space-y-2">
-              <li>Ressuage</li>
-              <li>Examen visuel</li>
-              <li>Ultrasons</li>
-              <li>Radiographie</li>
-            </ul>
-          </div>
-          
-          {/* Laboratoire d'essais métallurgiques */}
-          <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
-            <div className="flex items-center mb-4">
-              <MdEngineering className="text-4xl text-red-600 mr-3" />
-              <h3 className="text-2xl font-semibold">Laboratoire d&apos;essais métallurgiques</h3>
-            </div>
-            <p className="text-gray-700 mb-4">
-              Étude des propriétés physico-chimiques des matériaux métalliques dans des conditions données.
-            </p>
-            <ul className="list-disc pl-6 text-gray-700 space-y-2">
-              <li>Analyse chimique des matériaux métalliques</li>
-              <li>Essais de corrosion</li>
-              <li>Analyse structurale (macro et microstructure)</li>
-            </ul>
-          </div>
-        </div>
-      </section>
+        
+        
+        
+        
+        
+        
 
-      {/* Fiche technique */}
-      <section className="bg-gray-100 p-6 mt-12 rounded-lg shadow-md">
-        <h2 className="text-3xl font-semibold mb-6">FICHE TECHNIQUE DU CTIME</h2>
-        <ul className="list-disc pl-6 text-gray-700">
-          <li><strong>Dénomination:</strong> CENTRE TECHNIQUE INDUSTRIEL DES INDUSTRIES MECANIQUE ET TRANSFORMATRICES DES METAUX</li>
-          <li><strong>Décret de création:</strong> Décret exécutif N° 15-210 du 16 septembre 2010</li>
-          <li><strong>Registre de commerce:</strong> 12 B 0069495</li>
-          <li><strong>Numéro fiscal:</strong> 001225019024451</li>
-          <li><strong>NIS:</strong> 001225010029170</li>
-          <li><strong>CNAS:</strong> 25 716 235/50</li>
-          <li><strong>Compte trésor:</strong> 008 25 001 1250000654 82</li>
-          <li><strong>Compte BNA Agence 840:</strong> 001 00840 300 000 690/15</li>
-        </ul>
+        
       </section>
     </div>
   );
