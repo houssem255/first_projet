@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"; 
 
 export default function PresentationCTIME() {
   return (
@@ -19,49 +19,37 @@ export default function PresentationCTIME() {
       </div>
       {/* Introduction avec background image */}
       <section className="bg-gray-50 p-6 rounded-lg shadow-md mb-10 bg-cover bg-center" style={{ backgroundImage: "url('/4872987.jpg')" }}>
-        <p className="mb-4  text-gray-700">
+        <p className="mb-4 text-gray-700">
         Le Centre Technique des Industries Mécaniques et transformatrices des
-Métaux « CTIME » a été créé par Décret exécutif n°10-215 du 16 septembre
-2010, dont le siège est fixé à Constantine.
-Le CTIME est un Etablissement Public à Caractère Industriel et Commercial
-« EPIC » et relève du Ministère de l’Industrie et de la production
-pharmaceutique.
+        Métaux &laquo; CTIME &raquo; a été créé par Décret exécutif n°10-215 du 16 septembre
+        2010, dont le siège est fixé à Constantine.
+        Le CTIME est un Établissement Public à Caractère Industriel et Commercial
+        &laquo; EPIC &raquo; et relève du Ministère de l’Industrie et de la production
+        pharmaceutique.
         </p>
-        <p className="mb-4  text-gray-700">
-        Le CTIME est un Etablissement Public à Caractère Industriel et Commercial « EPIC » et relève du Ministère de l’Industrie et de la production pharmaceutique.
-
+        <p className="mb-4 text-gray-700">
+        Le CTIME est un Établissement Public à Caractère Industriel et Commercial &laquo; EPIC &raquo; et relève du Ministère de l’Industrie et de la production pharmaceutique.
         </p>
-        <p className="mb-4  text-gray-700">
-        L'investissement en moyens de contrôle va de quelques milliers de Dinars à plusieurs dizaines de millions pour des machines de haute précision. Choisir les moyens adaptés aux vérifications qui sont nécessaires pour pouvoir certifier la qualité du produit n’est pas toujours une tâche facile. A cet effet le CTIME avec seulement deux des quatre laboratoires prévus propose aux opérateurs une gamme assez large d’essais et d’expertise conformément aux normes internationales, leurs présentant une meilleure vision de la qualité des produits avec des équipement modernes de dernière génération.
+        <p className="mb-4 text-gray-700">
+        L&apos;investissement en moyens de contrôle va de quelques milliers de Dinars à plusieurs dizaines de millions pour des machines de haute précision. Choisir les moyens adaptés aux vérifications qui sont nécessaires pour pouvoir certifier la qualité du produit n&apos;est pas toujours une tâche facile. À cet effet, le CTIME avec seulement deux des quatre laboratoires prévus propose aux opérateurs une gamme assez large d&apos;essais et d&apos;expertise conformément aux normes internationales, leur présentant une meilleure vision de la qualité des produits avec des équipements modernes de dernière génération.
         </p>
-        <p className="mb-4  text-gray-700">
-        Au jour d’aujourd’hui le CTIME a été très bien accueilli par des opérateurs des filières mécaniques et transformation des métaux en particulier ceux du secteur de l’énergie et les PME.
+        <p className="mb-4 text-gray-700">
+        Au jour d&apos;aujourd&apos;hui, le CTIME a été très bien accueilli par des opérateurs des filières mécaniques et transformation des métaux en particulier ceux du secteur de l&apos;énergie et les PME.
         </p>
         <h2 className="mb-4 my-8 text-xl font-semibold">
-        A titre indicatif le CTIME se distingue déjà par des services :
+        À titre indicatif, le CTIME se distingue déjà par des services :
         </h2>
         <h2 className="mb-4 my-8 text-xl font-semibold">
         ETALONNAGE :
         </h2 >
-        <p className="mb-4  text-gray-700">
-        C’est la comparaison des valeurs d’un instrument de mesure à celles d’un étalon, en associant les incertitudes. Cette comparaison permet d’estimer le biais de l’instrument.  Les valeurs obtenues par un étalonnage sont consignées dans un certificat d’étalonnage.
-A noter que cette opération est indispensable pour les entreprises concernées par les certifications et le CTIME est réellement équipé pour ces prestations dans le domaine dimensionnel.
-
-
+        <p className="mb-4 text-gray-700">
+        C&apos;est la comparaison des valeurs d&apos;un instrument de mesure à celles d&apos;un étalon, en associant les incertitudes. Cette comparaison permet d&apos;estimer le biais de l&apos;instrument. Les valeurs obtenues par un étalonnage sont consignées dans un certificat d&apos;étalonnage.
+        À noter que cette opération est indispensable pour les entreprises concernées par les certifications et le CTIME est réellement équipé pour ces prestations dans le domaine dimensionnel.
         </p>
         <h1 className="mb-4 my-8 text-xl font-semibold">
-        ESSAIS MECANIQUES :
+        ESSAIS MÉCANIQUES :
         </h1>
-        <p className="mb-4  text-gray-700">Ensemble d’essais pour la caractérisation des matériaux métalliques à forte et faible résistance, le CTIME est en mesure de réaliser un essai de traction à haute température allant jusqu’à 1200°C.</p>
-        
-        
-        
-        
-        
-        
-        
-
-        
+        <p className="mb-4 text-gray-700">Ensemble d&apos;essais pour la caractérisation des matériaux métalliques à forte et faible résistance, le CTIME est en mesure de réaliser un essai de traction à haute température allant jusqu&apos;à 1200°C.</p>
       </section>
     </div>
   );
