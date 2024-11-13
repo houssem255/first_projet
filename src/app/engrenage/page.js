@@ -149,7 +149,7 @@ const EtalonnagePage = () => {
       }}
     >
       <motion.img
-        src="/chevron gear-imageonline.co-merged.png"
+        src="/helical-gear-imageonline.co-merged.png"
         alt="Étalonnage des Instruments"
         className="w-full max-w-5xl mb-6 rounded-lg shadow-lg transition-transform transform hover:scale-105"
         initial={{ opacity: 0, scale: 0.8 }}
