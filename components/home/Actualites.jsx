@@ -16,7 +16,7 @@ const actualites = [
     id: 2,
     title: "programme PADICA",
     description: "Dans le cadre du programme PADICA, une visite de travail a été effectuée au niveau du CTIME par les représentants de Délégation de l'Union Européenne accompagnée par la Directrice Nationale du Programme.",
-    date: "2024-05-10",
+    date: "2024-04-21",
     image: "/437558874_416315707824911_6409835770231377567_n.jpg",
     detailsLink: "/Actualites" // Lien de détails pour cette actualité
   },
@@ -24,7 +24,7 @@ const actualites = [
     id: 3,
     title: "formation Introduction à la science des matériaux organisée",
     description: "Première session de formation intitulée: Introduction à la science des matériaux organisée par le #CTIME dans le cadre du programme PADICA au niveau de l'INPED Boumerdas qui se déroulera du 24 au 26 Décembre 2023.",
-    date: "2024-05-01",
+    date: "2024-12-24",
     image: "/413790727_347185008071315_9105077155892308312_n.jpg",
     detailsLink: "/Actualites" // Lien de détails pour cette actualité
   },

@@ -1,4 +1,4 @@
-'use client';
+"use client"
 import React from 'react';
 import { motion } from 'framer-motion';
 
@@ -7,139 +7,191 @@ const EtalonnagePage = () => {
     {
       title: "Engrenage droit",
       définitions: [
-        "Measurement of straight (cylindrical gears)",
-        "Single points & scanning",
-        "Internal and external gears",
-        "With and without eccentricity",
-        "Profile and helix and also pitch, runout and topography",
-        "Graphical evaluation and report",
-        "Reverse engineering: Generation of the CAO",
+        {
+          subtitle: "Engrenage droit",
+          items: [
+            "Measurement of straight (cylindrical gears)",
+            "Single points & scanning",
+            "Internal and external gears",
+            "With and without eccentricity",
+            "Profile and helix and also pitch, runout and topography",
+            "Graphical evaluation and report",
+            "Reverse engineering: Generation of the CAO",
+          ],
+        },
       ],
       images: ["/images.jfif"],
     },
     {
       title: "Engrenage hélocoidal",
       définitions: [
-        "Measurement of helical gear",
-        "Single points & scanning",
-        "Internal and external gears",
-        "With and without eccentricity",
-        "Profile and helix and also pitch, runout and topography",
-        "Graphical evaluation and report",
-        "Reverse engineering: Generation of the CAO",
+        {
+          subtitle: "Engrenage hélocoidal",
+          items: [
+            "Measurement of helical gear",
+            "Single points & scanning",
+            "Internal and external gears",
+            "With and without eccentricity",
+            "Profile and helix and also pitch, runout and topography",
+            "Graphical evaluation and report",
+            "Reverse engineering: Generation of the CAO",
+          ],
+        },
       ],
       images: ["/téléchargement (6).jfif"],
     },
     {
       title: "Engrenage conique droit",
       définitions: [
-        "Internal and external gear",
-        "Gear geometry parameter definition via input or measurement",
-        "Single points & Scanning",
-        "Master grid generation (calculated, measured or CAD master)",
-        "Best fit of the topography; • Graphical evaluation and report",
-        "Reverse engineering: Generation of the CAD model based on the parameter set",
+        {
+          subtitle: "Engrenage conique droit",
+          items: [
+            "Internal and external gear",
+            "Gear geometry parameter definition via input or measurement",
+            "Single points & Scanning",
+            "Master grid generation (calculated, measured or CAD master)",
+            "Best fit of the topography; • Graphical evaluation and report",
+            "Reverse engineering: Generation of the CAD model based on the parameter set",
+          ],
+        },
       ],
       images: ["/images (1).jfif"],
     },
     {
       title: "Engrenage à chevrons",
       définitions: [
-        "Measurement and evaluation of the relative axial and radial Position of two helical gears (internal and external gearings)",
-        "Z-position of the apex",
+        {
+          subtitle: "Engrenage à chevrons",
+          items: [
+            "Measurement and evaluation of the relative axial and radial Position of two helical gears (internal and external gearings)",
+            "Z-position of the apex",
+          ],
+        },
       ],
       images: ["/téléchargement (1).jfif"],
     },
     {
       title: "Engrenage conique à dentures spirales",
       définitions: [
-        "Measurement of involute spiral bevel gears and crown gears",
-        "Gear geometry parameter definition via input or measurement",
-        "Single point & scanning",
-        "Measurement of the master flank",
-        "Measurement and evaluation of topography incl. best fit, pitch and runout",
-        "Pitch point definition based on the master grid or based on the radius & Z coordinate",
-        "Evaluations of the runout: with eccentricity and/or eccentricity eliminated",
-        "Special measurements like tip cone, root cone, tooth height and root scan",
-        "Definition of the master flank (import or CAD based)",
-        "Graphical evaluation and report",
+        {
+          subtitle: "Engrenage conique à dentures spirales",
+          items: [
+            "Measurement of involute spiral bevel gears and crown gears",
+            "Gear geometry parameter definition via input or measurement",
+            "Single point & scanning",
+            "Measurement of the master flank",
+            "Measurement and evaluation of topography incl. best fit, pitch and runout",
+            "Pitch point definition based on the master grid or based on the radius & Z coordinate",
+            "Evaluations of the runout: with eccentricity and/or eccentricity eliminated",
+            "Special measurements like tip cone, root cone, tooth height and root scan",
+            "Definition of the master flank (import or CAD based)",
+            "Graphical evaluation and report",
+          ],
+        },
       ],
       images: ["/39_0509.JPG"],
     },
     {
       title: "Crémaillère à rapport constant et variable",
       définitions: [
-        // Defintions pour "Gear rack with constant ratio"
-        "Measurement and evaluation of straight/helical racks with constant pitch incl. alignment",
-        "Measurement and evaluation of pin holes",
-        "The following evaluations are supported: width and height of the gear rack, Pitch, Tooth thickness and height, Size over ball, Helix line and angle, Profile line and angle",
-        "Measurement in scanning mode",
-        "Graphical evaluation and report",
-        
-        // Defintions pour "Gear rack with variable ratio"
-        "Graphical evaluation of peripheral speed and the path deviation depending on the angle of rotation of the pinion.",
+        {
+          subtitle: "Crémaillère à rapport constant",
+          items: [
+            "Measurement and evaluation of straight/helical racks with constant pitch incl. alignment",
+            "Measurement and evaluation of pin holes",
+            "The following evaluations are supported: width and height of the gear rack, Pitch, Tooth thickness and height, Size over ball, Helix line and angle, Profile line and angle",
+            "Measurement in scanning mode",
+            "Graphical evaluation and report",
+          ],
+        },
+        {
+          subtitle: "Crémaillère à rapport variable",
+          items: [
+            "Graphical evaluation of peripheral speed and the path deviation depending on the angle of rotation of the pinion.",
+          ],
+        },
       ],
       images: ["/téléchargement (2).jfif"],
     },
     {
       title: "Roue à chaîne",
       définitions: [
-        "Measurement and evaluation of sprockets according to DIN 606",
-        "Continuous contact scanning",
-        "With & without rotary table",
-        "Gap types:",
-        "Max/Min Profile with Radius and Angle (Typ A)",
-        "Profile according to DIN 8186-1 (Typ B)",
-        "Flank Angle Gamma (Typ C)",
-        "Measurement and evaluation of the axial and flank profile, pitch and topography",
-        "Evaluation of the tip, root and pitch circle and the ball size over balls",
-        "CAD model generation",
-        "Graphical evaluation and 3D-evaluation of the topography deviations with the CAD model",
+        {
+          subtitle: "Roue à chaîne",
+          items: [
+            "Measurement and evaluation of sprockets according to DIN 606",
+            "Continuous contact scanning",
+            "With & without rotary table",
+            "Gap types:",
+            "Max/Min Profile with Radius and Angle (Typ A)",
+            "Profile according to DIN 8186-1 (Typ B)",
+            "Flank Angle Gamma (Typ C)",
+            "Measurement and evaluation of the axial and flank profile, pitch and topography",
+            "Evaluation of the tip, root and pitch circle and the ball size over balls",
+            "CAD model generation",
+            "Graphical evaluation and 3D-evaluation of the topography deviations with the CAD model",
+          ],
+        },
       ],
-      images: ["/images (3).jfif"],
+      images: ["/sproket.jpg"],
     },
     {
       title: "Hob cutter",
       définitions: [
-        "For single and multi-thread hobs with parallel or helical flutes;",
-        "All evaluations as required by DIN 3968:1960",
-        "Radial/axial run-out upper & lower test cullar and chucking face",
-        "Shape/position cutting face",
-        "Pitch of flutes-Form deviation of the cutting edge",
-        "Tooth thickness-Hob lead over cutting edge etc",
-        "Radial run-out at tooth tip",
-        "Shape/position cutting face",
-        "Pitch of flutes-Form deviation of the cutting edge",
-        "Tooth thickness-Hob lead over cutting edge etc",
-        "In addition to DIN:",
-        "Axial pitch",
-        "Tooth height for topping cutter",
+        {
+          subtitle: "Hob cutter",
+          items: [
+            "For single and multi-thread hobs with parallel or helical flutes;",
+            "All evaluations as required by DIN 3968:1960",
+            "Radial/axial run-out upper & lower test cullar and chucking face",
+            "Shape/position cutting face",
+            "Pitch of flutes-Form deviation of the cutting edge",
+            "Tooth thickness-Hob lead over cutting edge etc",
+            "Radial run-out at tooth tip",
+            "Shape/position cutting face",
+            "Pitch of flutes-Form deviation of the cutting edge",
+            "Tooth thickness-Hob lead over cutting edge etc",
+            "In addition to DIN:",
+            "Axial pitch",
+            "Tooth height for topping cutter",
+          ],
+        },
       ],
       images: ["/téléchargement (3).jfif"],
     },
     {
       title: "Shaving gear",
       définitions: [
-        "Measurement and evaluation of: Helix, Profile, Pitch, Runout",
-        "Corrections adjustment parameters for shaper cutter", 
-        "The evaluations of shaving gears are similar to the of the cylindrical gears",
-        "Single points and scan mode"
+        {
+          subtitle: "Shaving gear",
+          items: [
+            "Measurement and evaluation of: Helix, Profile, Pitch, Runout",
+            "Corrections adjustment parameters for shaper cutter",
+            "The evaluations of shaving gears are similar to the of the cylindrical gears",
+            "Single points and scan mode",
+          ],
+        },
       ],
       images: ["/téléchargement (4).jfif"],
     },
     {
       title: "Identification d'engrenage droit et hélicoidal",
       définitions: [
-        "Inspection of straight and helical, external and internal gears or gear segments with unknown parameters", 
-        "All standard parameters are evaluated, i.e. module, pressure and helix angle, addendum modification, crowning of profile an helix, tip/root circle diameter etc.", 
-        "Reverse engineering: Generation of the CAD model based on the parameter set"
+        {
+          subtitle: "Identification d'engrenage droit et hélicoidal",
+          items: [
+            "Inspection of straight and helical, external and internal gears or gear segments with unknown parameters",
+            "All standard parameters are evaluated, i.e. module, pressure and helix angle, addendum modification, crowning of profile an helix, tip/root circle diameter etc.",
+            "Reverse engineering: Generation of the CAD model based on the parameter set",
+          ],
+        },
       ],
-      images: ["/téléchargement (5).jfif"],
+      images: ["/images.jfif", "/téléchargement (6).jfif"],
     },
   ];
 
   return (
-    <div 
+    <div
       className="flex flex-col items-center p-4 min-h-screen"
       style={{
         backgroundImage: "url('/4872987.jpg')", // Background image path
@@ -158,15 +210,13 @@ const EtalonnagePage = () => {
       />
 
       <h1 className="text-4xl font-extrabold text-red-600 mb-6 text-center">Inspection d&apos;engrenage</h1>
-      
-      <section className="bg-white shadow-lg rounded-lg p-8 mb-10 w-full max-w-3xl">
+
+      <section className="bg-white shadow-lg rounded-lg p-8 mb-10 w-full max-w-5xl">
         <h2 className="text-3xl font-semibold text-gray-800 mb-4 text-center">Introduction</h2>
         <p className="text-gray-700 text-lg leading-relaxed">
           L&apos;inspection des engrenages a toujours été un domaine très pointu. Avec des calculs spécifiques à la géométrie des engrenages, même les meilleurs inspecteurs ne pouvaient en général pas exploiter les détails de la géométrie de ces éléments. On utilisait traditionnellement un matériel dédié à l&apos;inspection des engrenages, très onéreux, qui était la seule méthode permettant d&apos;identifier des problèmes de fabrication. La possibilité d&apos;automatiser l&apos;inspection des engrenages à l&apos;aide d&apos;une MMT, un équipement plus flexible et relativement économique, met l&apos;inspection des engrenages à la portée de presque tout atelier qui en a besoin. L&apos;autre avantage est que de nombreux ateliers possèdent de toute façon une MMT automatique. Ainsi, l&apos;inspection des engrenages étend les fonctionnalités d&apos;un outil existant.
         </p>
       </section>
-      
-      <h1 className="text-4xl font-extrabold text-red-600 mb-6 text-center">Services</h1>
 
       {services.map((service, index) => (
         <motion.section
@@ -176,9 +226,33 @@ const EtalonnagePage = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: index * 0.1 }}
         >
-          <h2 className="text-2xl font-semibold text-gray-800 mb-4 text-center">{service.title}</h2>
-          <div className="flex flex-wrap">
-            <div className="w-full md:w-1/3 flex flex-col gap-4">
+          <h2
+            className={`text-2xl font-semibold text-gray-800 mb-4 text-center ${service.title === "Identification d'engrenage droit et hélicoidal" ? 'text-red-600' : ''}`}
+          >
+            {service.title}
+          </h2>
+
+          <div className="flex flex-col md:flex-row items-center justify-between">
+            <div className="w-full md:w-1/2 p-4 bg-gray-100 rounded-lg shadow-md">
+              {/* Loop through the definitions */}
+              {service.définitions.map((def, idx) => (
+                <div key={idx} className="mb-6">
+                  <h3 className="text-xl font-semibold text-gray-800">{def.subtitle}</h3>
+                  <ul className="list-disc list-inside text-gray-700 leading-relaxed">
+                    {def.items && def.items.length > 0 ? (
+                      def.items.map((item, i) => (
+                        <li key={i}>{item}</li>
+                      ))
+                    ) : (
+                      <li>No items available</li>
+                    )}
+                  </ul>
+                </div>
+              ))}
+            </div>
+
+            <div className="w-full md:w-1/2 flex flex-col gap-4 p-4">
+              {/* Display images */}
               {service.images.map((img, idx) => (
                 <motion.img
                   key={idx}
@@ -189,35 +263,11 @@ const EtalonnagePage = () => {
                   animate={{ opacity: 1, scale: 1 }}
                   transition={{ duration: 0.5 }}
                   onError={(e) => {
-                    e.target.onerror = null; // Prevent looping
-                    e.target.src = "/path/to/placeholder.jpg"; // Placeholder image
+                    e.target.onerror = null;
+                    e.target.src = "/path/to/placeholder.jpg"; // Placeholder image path
                   }}
                 />
               ))}
-            </div>
-            <div className="w-full md:w-2/3 pl-8">
-              {service.title === "Crémaillère à rapport constant et variable" && (
-                <>
-                  <h4 className="text-xl font-medium text-gray-900 mt-4">Gear rack with constant ratio</h4>
-                  <ul className="list-disc list-inside text-gray-700 leading-relaxed">
-                    {service.définitions.slice(0, 5).map((def, idx) => (
-                      <li key={idx} className="mb-2">{def}</li>
-                    ))}
-                  </ul>
-
-                  <h4 className="text-xl font-medium text-gray-900 mt-4">Gear rack with variable ratio</h4>
-                  <ul className="list-disc list-inside text-gray-700 leading-relaxed">
-                    <li>{service.définitions[5]}</li>
-                  </ul>
-                </>
-              )}
-
-              {/* Pour les autres services */}
-              {service.title !== "Crémaillère à rapport constant et variable" && (
-                <ul className="list-disc list-inside text-gray-700 leading-relaxed">
-                  {service.définitions.map((def, idx) => def && <li key={idx} className="mb-2">{def}</li>)}
-                </ul>
-              )}
             </div>
           </div>
         </motion.section>

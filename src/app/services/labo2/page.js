@@ -1,6 +1,5 @@
-'use client';
-
-import Link from 'next/link';
+"use client"
+import Link from 'next/link'; 
 import React, { useEffect, useState } from 'react';
 import { FaTools, FaRulerCombined, FaCogs, FaDraftingCompass, FaCheckCircle, FaObjectGroup } from 'react-icons/fa';
 import Image from 'next/image';
@@ -14,12 +13,12 @@ const LaboratoireDeMetrologie = () => {
   }, []);
 
   const services = [
-    { icon: <FaRulerCombined className="text-4xl text-red-600 mx-auto mb-4" />, title: "Essai de Traction", description: "Essais spécifiques", link: '/engrenage', imgSrc: '/Engrenage.png' },
-    { icon: <FaCogs className="text-4xl text-red-600 mx-auto mb-4" />, title: "Essai de Dureté", description: "Mesures spécifiques", imgSrc: '/Eprouvette.jpg' },
-    { icon: <FaDraftingCompass className="text-4xl text-red-600 mx-auto mb-4" />, title: "Essai de Résilience", description: "Analyse des performances sous chargement cyclique.", imgSrc: '/456.png' },
-    { icon: <FaCheckCircle className="text-4xl text-red-600 mx-auto mb-4" />, title: "Essai de Fatigue", description: "Mesure de la ténacité à l&apos;impact.", imgSrc: '/Piece chaoui.png' },
-    { icon: <FaObjectGroup className="text-4xl text-red-600 mx-auto mb-4" />, title: "Essai de Compression", description: "Mesure de la résistance des matériaux.", link: '/Retro', imgSrc: '/Flexion.JPG' },
-    { icon: <FaObjectGroup className="text-4xl text-red-600 mx-auto mb-4" />, title: "Essai de Flexion", description: "Analyse de la résistance à la flexion.", link: '/Retro', imgSrc: '/tata.png' },
+    { icon: <FaRulerCombined className="text-4xl text-red-600 mx-auto mb-4" />, title: "Essai de Traction", description: "Essais spécifiques", link: '/traction', imgSrc: '/IMG_4411.JPG' },
+    { icon: <FaCogs className="text-4xl text-red-600 mx-auto mb-4" />, title: "Essai de Dureté", description: "Mesures spécifiques", imgSrc: '/IMG_4138.JPG', link: '/durete' },
+    { icon: <FaDraftingCompass className="text-4xl text-red-600 mx-auto mb-4" />, title: "Essai de Charpty", description: "Analyse des performances sous chargement cyclique.", imgSrc: '/IMG_4418.JPG', link: '/resilience' },
+    { icon: <FaCheckCircle className="text-4xl text-red-600 mx-auto mb-4" />, title: "Essai de Fatigue", description: "Mesure de la ténacité à l&apos;impact.", imgSrc: '/IMG_4413.JPG', link: '/nav' },
+    { icon: <FaObjectGroup className="text-4xl text-red-600 mx-auto mb-4" />, title: "Essai de Compression", description: "Mesure de la résistance des matériaux.", link: '/resilience', imgSrc: '/tata.png' },
+    { icon: <FaObjectGroup className="text-4xl text-red-600 mx-auto mb-4" />, title: "Essai de Flexion", description: "Analyse de la résistance à la flexion .", link: '/flexion', imgSrc: '/Flexion.JPG' },
   ];
 
   return (
@@ -70,6 +69,10 @@ const LaboratoireDeMetrologie = () => {
           <li><strong>Module d&apos;Young :</strong> Rigidité du matériau.</li>
           <li><strong>Dureté :</strong> Résistance à la pénétration.</li>
           <li><strong>Fatigue:</strong> Rupture sous charge répétée.</li>
+          <li><strong>Ténacité :</strong> Capacité d&apos;un matériau à résister à la propagation d&apos;une fissure.</li>
+          
+          <li> La sensibilité d&apos;un matériau à la température.</li>
+          <li>Les propriétés d&apos;un matériau composite ou d&apos;un assemblage.</li>
         </ul>
 
         <h2 className="text-3xl font-semibold text-center text-black mb-10">Nos services</h2>
