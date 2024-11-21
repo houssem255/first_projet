@@ -1,4 +1,4 @@
-// pages/compression.js
+
 
 // pages/resilience.js
 "use client";
