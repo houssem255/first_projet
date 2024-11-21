@@ -20,6 +20,9 @@
     "@medusajs/ui": "^3.0.1",
     "@mui/material": "^6.1.1",
     "@react-google-maps/api": "^2.20.3",
+    "@react-three/drei": "^9.117.3",
+    "@react-three/fiber": "^8.17.10",
+    "@types/three": "^0.170.0",
     "axios": "^1.7.7",
     "bootstrap": "^5.3.3",
     "formidable": "^3.5.1",
@@ -40,7 +43,8 @@
     "slick-carousel": "^1.8.1",
     "styled-components": "^6.1.13",
     "swiper": "^11.1.14",
-    "swr": "^2.2.5"
+    "swr": "^2.2.5",
+    "three": "^0.170.0"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",

@@ -36,7 +36,7 @@ const EtalonnagePage = () => {
           ],
         },
       ],
-      images: ["/Capture75.PNG"],
+      images: ["/Eprouvette 10mm avec entaille V 2 mm.png"],
     },
     {
       title: "L'entailleuse",
@@ -157,7 +157,7 @@ const EtalonnagePage = () => {
                   key={idx}
                   src={img}
                   alt={service.title}
-                  className={`w-full ${service.title === "Les différents types d'entailles" || service.title === "L'entailleuse"|| service.title === "• Échelle de Rockwell :" ? 'max-w-[50%]' : 'max-w-[500px]'} h-auto object-contain rounded-lg shadow-md transition-transform transform hover:scale-105`}
+                  className={`w-full ${service.title === "" || service.title === "L'entailleuse"|| service.title === "• Échelle de Rockwell :" ? 'max-w-[50%]' : 'max-w-[500px]'} h-auto object-contain rounded-lg shadow-md transition-transform transform hover:scale-105`}
                   initial={{ opacity: 0, scale: 0.8 }}
                   animate={{ opacity: 1, scale: 1 }}
                   transition={{ duration: 0.5 }}
