@@ -5,10 +5,10 @@ import { motion } from 'framer-motion';
 const EtalonnagePage = () => {
   const services = [
     {
-      title: "Matériaux de haute résistance à la traction (environ 600 kN)",
+      title: "Matériaux de haute résistance à la traction jusqu'a 600 kN",
       définitions: [
         {
-          subtitle: "Les matériaux capables de supporter des charges de traction aussi élevées sont généralement des métaux ou des alliages à haute performance. Voici quelques exemples :",
+          subtitle: "Les matériaux capables de supporter des charges de traction aussi élevées sont généralement des métaux ou des alliages à haute performance.",
           items: [
             "Aciers haute résistance : (Aciers alliés, Aciers inoxydables)",
             "Alliages d’aluminium : (Alliages d'aluminium série 7000)",
@@ -20,7 +20,7 @@ const EtalonnagePage = () => {
       images: ["/Capture3.PNG"],
     },
     {
-      title: "Matériaux de faible résistance à la traction (environ 5 kN)",
+      title: "Matériaux de faible résistance à la traction jusqu'a 5 kN",
       définitions: [
         {
           subtitle: "Les matériaux de faible résistance à la traction sont généralement plus doux et plus faciles à déformer. On les retrouve souvent dans des applications où la flexibilité et l'absorption d'énergie sont primordiales. Voici quelques exemples :",
@@ -54,7 +54,7 @@ const EtalonnagePage = () => {
       images: ["/extention metre.png"],
     },
     {
-      title: "Essai de traction à température ambiante ",
+    title: "Essai de traction à température ambiante jusqu'a 1200 C° ",
       définitions: [
         {
           subtitle: "L’essai de traction à température ambiante est une méthode simple et efficace pour évaluer la résistance et la ductilité d'un matériau (23°C)",

@@ -8,15 +8,13 @@ const EtalonnagePage = () => {
       title: "Caractéristique ",
       définitions: [
         {
-          subtitle: "Les matériaux capables de supporter des charges de traction aussi élevées sont généralement des métaux ou des alliages à haute performance. Voici quelques exemples :",
+          
           items: [
             "Energie max : 450 J ",
             "Poids du marteau : 30.3 kg (approx. 300N)",
             "Longueur du pendule :  770 mm ",
-            "Résolution en<< énergie 0.01 J et en angle 0.018°.",
-            "Vitesse : 5.42 m/s.",
-            "Système de mesure : via encodeur.",
-            "Capacité d’enregistré 1000 essais.",
+            "Résolution en<< énergie 0.01 J",
+           
 
           ],
         },
@@ -29,63 +27,16 @@ const EtalonnagePage = () => {
         {
           
           items: [
-            "•	L’entaille en V (type A dans la norme ASTM).",
-            "•	L’entaille en U (type C dans la norme ASTM) .",
-            "Le choix de l'entaille dépend de la norme utilisée et du type de matériau testé.",
+            "•	L’entaille en V ",
+            "•	L’entaille en U ",
+            
           
           ],
         },
       ],
       images: ["/Eprouvette 10mm avec entaille V 2 mm.png"],
     },
-    {
-      title: "L'entailleuse",
-      définitions: [
-        {
-          items: [
-            "Vitesse de coupe de broche : 7,1 à 37,8 mm/sec ",
-            "Fourchette de température de fonctionnement : 5°C à 40°C ",
-            "Classe de protection : Classe 1 (doit être reliée à la terre) ",
-            "Longueur du pendule :  770 mm",
-            "Résolution en énergie 0.01 J et en angle 0.018°. ",
-            "Vitesse : 5.42 m/s.",
-            
-          ],
-        },
-      ],
-      images: ["/Capture75.PNG"],
-    },
-    {
-      title: "Dispositif ",
-      définitions: [
-        {
-          subtitle: "Type pelle pour positionnement et centrage rapide des éprouvettes",
-        },
-      ],
-      images: ["/Capture712.PNG"],
-    },
-    {
-      title: "Centreur de référence",
-      définitions: [
-        {
-          items: [
-            "Pour ajustement et vérification du centrage des supports‐percuteur.",
-          ],
-        },
-      ],
-      images: ["/Capture46.PNG"],
-    },
-    {
-      title: "Pinces ASTM",
-      définitions: [
-        {
-          items: [
-            "Pour positionnement des éprouvettes sur les supports",
-          ],
-        },
-      ],
-      images: ["/Capture1456.PNG"],
-    },
+    
 
   ];
 
@@ -93,7 +44,7 @@ const EtalonnagePage = () => {
     <div
       className="flex flex-col items-center p-4 min-h-screen"
       style={{
-        backgroundImage: "url('/4872987.jpg')", // Background image path
+        backgroundImage: "url('/4872987.jpg')", 
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",

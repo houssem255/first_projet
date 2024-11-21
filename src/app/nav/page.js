@@ -6,17 +6,30 @@ import Image from 'next/image';
 const EtalonnagePage = () => {
   const services = [
     {
-      title: "Qu'est-ce la fatigue d'un matériau ?",
+      title: "",
       définitions: [
         {
-          subtitle: "La fatigue d’un matériau désigne le phénomène de détérioration progressive et finalement la rupture d’un matériau sous l’effet de charges répétées qui sont généralement inférieures à la charge maximale que le matériau peut supporter en une seule application. ",
+          subtitle: "",
           items: [
-            "Ce processus de fatigue est particulièrement pertinent pour les matériaux utilisés dans des structures ou des composants soumis à des cycles de charge répétés au cours de leur utilisation normale, comme dans l’aéronautique ou l’automobile. ",
+            "Capacité en essai dynamique ±100KN. ",
+            "Capacité en essai statique ±150KN.",
+            "Fréquence de 0.01Hz à 50 Hz.",
+            "De 1 à 100% de sa capacité.",
+            "Distance verticale entre la cellule de charge et la table rainurée 950mm.",
+            "Distance entre colonnes 520mm.",
+            "Amplitude ± 75mm.",
+            "Course du piston ± 150mm. ",
+            "Amplitude dynamique ±75 à 0.25 Hz /±0.4mm à 50Hz.",
+            "Capteur de déplacement numérique SSI résolution r=0.0005.",
+            "Groupe hydraulique débit 45l/mn avec refroidissement air-eau." ,
+            "Système d’alignement mécanique monté entre la cellule de charge et la traverse.",
+            "Système de contrôle type MD58.",
+
            
           ],
         },
       ],
-      images: ["/materaux.png"],
+      images: ["/Capturehb.PNG"],
     },
     {
       title: "Qu'est-ce qu'un essai de fatigue ?",
@@ -100,6 +113,12 @@ const EtalonnagePage = () => {
       />
 
       <h1 className="text-4xl font-extrabold text-red-600 mb-6 text-center">essai de fatigue</h1>
+      <section className="bg-white shadow-lg rounded-lg p-8 mb-10 w-full max-w-5xl">
+        <h2 className="text-3xl font-semibold text-gray-800 mb-4 text-center">Introduction</h2>
+        <p className="text-gray-700 text-lg leading-relaxed">
+        L'essai de fatigue est un type d'essai mécanique visant à déterminer la résistance d'un matériau à des charges cycliques répétées. Contrairement aux essais statiques (traction, compression, flexion), l'essai de fatigue simule les conditions réelles de service où les matériaux sont soumis à des sollicitations variables dans le temps.
+        </p>
+      </section>
 
      
 
@@ -141,7 +160,7 @@ const EtalonnagePage = () => {
                   key={idx}
                   src={img}
                   alt={service.title}
-                  className="w-full h-48 object-cover rounded-lg shadow-md transition-transform transform hover:scale-105"
+                  className={`w-full ${service.title === "" || service.title === "L'entailleuse"|| service.title === "• Échelle de Rockwell :" ? 'max-w-[50%]' : 'max-w-[500px]'} h-auto object-contain rounded-lg shadow-md transition-transform transform hover:scale-105`}
                   initial={{ opacity: 0, scale: 0.8 }}
                   animate={{ opacity: 1, scale: 1 }}
                   transition={{ duration: 0.5 }}
