@@ -11,7 +11,7 @@ export default function Cantact_Two() {
     number: '',
   });
   const [attachment, setAttachment] = useState(null);
-  const [btnText, setBtnText] = useState('Submit');
+  const [btnText, setBtnText] = useState('Envoyer');
 
   const handleSubmit = async (event) => {
     event.preventDefault();

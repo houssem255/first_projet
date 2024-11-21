@@ -1,84 +1,164 @@
-// pages/essai-de-traction.js
-
+"use client"
 import React from 'react';
+import { motion } from 'framer-motion';
 
-const EssaiDeTraction = () => {
+const EtalonnagePage = () => {
+  const services = [
+    {
+      title: "Matériaux de haute résistance à la traction (environ 600 kN)",
+      définitions: [
+        {
+          subtitle: "Les matériaux capables de supporter des charges de traction aussi élevées sont généralement des métaux ou des alliages à haute performance. Voici quelques exemples :",
+          items: [
+            "Aciers haute résistance : (Aciers alliés, Aciers inoxydables)",
+            "Alliages d’aluminium : (Alliages d'aluminium série 7000)",
+            "Superalliages ",
+            "Titane et ses alliages",
+          ],
+        },
+      ],
+      images: ["/Capture3.PNG"],
+    },
+    {
+      title: "Matériaux de faible résistance à la traction (environ 5 kN)",
+      définitions: [
+        {
+          subtitle: "Les matériaux de faible résistance à la traction sont généralement plus doux et plus faciles à déformer. On les retrouve souvent dans des applications où la flexibilité et l'absorption d'énergie sont primordiales. Voici quelques exemples :",
+          items: [
+            "Polymères thermoplastiques : (Polyéthylène (PE), polypropylène (PP), polystyrène (PS), etc.)",
+            "Caoutchouc naturel et synthétique",
+            "Bois",
+            "Céramiques traditionnelles",
+          ],
+        },
+      ],
+      images: ["/Capture.PNG"],
+    },
+    {
+      title: "Les paramètres mesurés",
+      définitions: [
+        {
+          items: [
+            "Limite élastique ",
+            "Résistance à la traction ",
+            "Allongement à la rupture ",
+            "Module d’Young ",
+            "Domaine élastique ",
+            "Point élastique ",
+            "Domaine plastique" ,
+            "Striction", 
+            "Rupture ",
+          ],
+        },
+      ],
+      images: ["/extention metre.png"],
+    },
+    {
+      title: "Essai de traction à température ambiante ",
+      définitions: [
+        {
+          subtitle: "L’essai de traction à température ambiante est une méthode simple et efficace pour évaluer la résistance et la ductilité d'un matériau (23°C)",
+        },
+      ],
+      images: ["/different types de matiere.png"],
+    },
+    {
+      title: "Essai de traction à haute température",
+      définitions: [
+        {
+          items: [
+            "L'essai est réalisé à une température élevée pour étudier le comportement du matériau à chaud.",
+          ],
+        },
+      ],
+      images: ["/Capture2.PNG"],
+    },
+  ];
+
   return (
-    <div className="bg-gray-100 min-h-screen">
-      <div className="container mx-auto px-4 py-12">
-        <h1 className="text-4xl font-bold text-center text-gray-800 mb-8">
-          Qu&apos;est-ce qu&apos;un essai mécanique de traction ?
-        </h1>
-        <p className="text-lg text-gray-700 mb-6">
-          L&apos;essai de traction est une méthode d&apos;essai mécanique qui consiste à soumettre une éprouvette à un effort de traction croissant jusqu&apos;à rupture. Cet essai permet d&apos;obtenir de nombreuses informations sur les propriétés mécaniques d&apos;un matériau, telles que :
+    <div
+      className="flex flex-col items-center p-4 min-h-screen"
+      style={{
+        backgroundImage: "url('/4872987.jpg')", // Background image path
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+      }}
+    >
+      <motion.img
+        src="/image (4).jpg"
+        alt="Étalonnage des Instruments"
+        className="w-full max-w-5xl mb-6 rounded-lg shadow-lg transition-transform transform hover:scale-105"
+        initial={{ opacity: 0, scale: 0.8 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 0.5 }}
+      />
+
+      <h1 className="text-4xl font-extrabold text-red-600 mb-6 text-center">essai de traction</h1>
+
+      <section className="bg-white shadow-lg rounded-lg p-8 mb-10 w-full max-w-5xl">
+        <h2 className="text-3xl font-semibold text-gray-800 mb-4 text-center">Introduction</h2>
+        <p className="text-gray-700 text-lg leading-relaxed">
+          Un essai de traction est une méthode d&apos;essai mécanique qui consiste à soumettre un échantillon de matériau à une force de traction croissante jusqu&apos;à sa rupture. Cette méthode permet d&apos;obtenir des informations cruciales sur les propriétés mécaniques du matériau.
         </p>
-        <ul className="list-disc list-inside text-gray-700 mb-6">
-          <li><strong>La limite élastique :</strong> C&apos;est la contrainte maximale que le matériau peut supporter sans déformation permanente.</li>
-          <li><strong>La résistance à la traction :</strong> C&apos;est la contrainte maximale que le matériau peut supporter avant rupture.</li>
-          <li><strong>L&apos;allongement à la rupture :</strong> C&apos;est l&apos;augmentation de longueur de l&apos;éprouvette à la rupture, exprimée en pourcentage de la longueur initiale.</li>
-          <li><strong>Le module d’Young :</strong> Il caractérise la rigidité du matériau.</li>
-        </ul>
+      </section>
 
-        <h2 className="text-3xl font-semibold text-gray-800 mb-4">Pourquoi réaliser un essai de traction ?</h2>
-        <p className="text-lg text-gray-700 mb-6">
-          Les essais de traction permettent d&apos;assurer le contrôle de qualité et facilitent le développement de nouveaux produits. Ces tests portant sur les propriétés mécaniques permettent de déterminer la résistance, l’élasticité et la ductilité des matériaux.
-        </p>
-        <p className="text-lg text-gray-700 mb-6">
-          Les industries font appel à notre laboratoire pour un essai de traction afin de :
-        </p>
-        <ul className="list-disc list-inside text-gray-700 mb-6">
-          <li>Évaluer la qualité des matériaux.</li>
-          <li>Déterminer leur fiabilité et leur durabilité.</li>
-          <li>Assurer leur sécurité et leur performance.</li>
-        </ul>
-        <p className="text-lg text-gray-700 mb-6">
-          Nos essais de traction, réalisés avec une précision extrême, permettent de caractériser en profondeur les propriétés mécaniques de vos matériaux. Nos experts ajustent les paramètres de l&apos;essai (par exemple, vitesse de déformation de 1 mm/min) pour répondre précisément à vos besoins.
-        </p>
+      {services.map((service, index) => (
+        <motion.section
+          key={index}
+          className="bg-white shadow-lg rounded-lg p-0 mb-5 w-full max-w-3xl transition-transform transform hover:shadow-2xl"
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, delay: index * 0.1 }}
+        >
+          <h2
+            className={`text-2xl font-semibold text-gray-800 mb-4 text-center ${service.title === "Identification d'engrenage droit et hélicoidal" ? 'text-red-600' : ''}`}
+          >
+            {service.title}
+          </h2>
 
-        <h2 className="text-3xl font-semibold text-gray-800 mb-4">Les paramètres mesurés</h2>
-        <ul className="list-disc list-inside text-gray-700 mb-6">
-          <li><strong>Limite élastique :</strong> Contraintes maximale que le matériau peut supporter sans déformation permanente.</li>
-          <li><strong>Résistance à la traction :</strong> Contraintes maximale que le matériau peut supporter avant rupture.</li>
-          <li><strong>Allongement à la rupture :</strong> Augmentation de longueur de l&apos;éprouvette à la rupture, exprimée en pourcentage de la longueur initiale.</li>
-          <li><strong>Module d’Young :</strong> Il mesure la rigidité du matériau.</li>
-        </ul>
+          <div className="flex flex-col md:flex-row items-center justify-between">
+            <div className="w-full md:w-1/2 p-4 bg-gray-100 rounded-lg shadow-md">
+              {/* Loop through the definitions */}
+              {service.définitions.map((def, idx) => (
+                <div key={idx} className="mb-6">
+                  <h6 className="text-gray-800">{def.subtitle}</h6>
+                  <ul className="list-disc list-inside text-gray-700 leading-relaxed">
+                    {def.items && def.items.length > 0 ? (
+                      def.items.map((item, i) => (
+                        <li key={i}>{item}</li>
+                      ))
+                    ) : (
+                      <li></li>
+                    )}
+                  </ul>
+                </div>
+              ))}
+            </div>
 
-        <h2 className="text-3xl font-semibold text-gray-800 mb-4">La courbe contrainte-déformation</h2>
-        <p className="text-lg text-gray-700 mb-6">
-          Cette courbe permet d&apos;identifier les différents stades de la déformation du matériau :
-        </p>
-        <ul className="list-disc list-inside text-gray-700 mb-6">
-          <li><strong>Domaine élastique :</strong> La déformation est proportionnelle à la contrainte.</li>
-          <li><strong>Point élastique :</strong> Correspond à la limite élastique du matériau.</li>
-          <li><strong>Domaine plastique :</strong> La déformation est permanente.</li>
-          <li><strong>Striction :</strong> La section de l&apos;éprouvette se rétrécit localement avant la rupture.</li>
-          <li><strong>Rupture :</strong> Le matériau se fracture.</li>
-        </ul>
-
-        <h2 className="text-3xl font-semibold text-gray-800 mb-4">Les différents types d&apos;essais de traction</h2>
-        <ul className="list-disc list-inside text-gray-700 mb-6">
-          <li><strong>Essai de traction uniaxial :</strong> La charge est appliquée dans une seule direction.</li>
-          <li><strong>Essai de traction biaxial :</strong> La charge est appliquée dans deux directions perpendiculaires.</li>
-          <li><strong>Essai de traction à haute température :</strong> L&apos;essai est réalisé à une température élevée.</li>
-        </ul>
-
-        <h2 className="text-3xl font-semibold text-gray-800 mb-4">Sur quels matériaux effectuer un test de traction ?</h2>
-        <ul className="list-disc list-inside text-gray-700 mb-6">
-          <li>Les matériaux métalliques tels que l’acier, l’aluminium, le cuivre et leurs alliages.</li>
-          <li>Les matériaux polymères, plastiques et élastomères.</li>
-          <li>Les matériaux composites, comme les fibres de carbone ou de verre.</li>
-          <li>Certains matériaux céramiques.</li>
-        </ul>
-      </div>
-
-      {/* Pied de page */}
-      <footer className="bg-gray-800 text-gray-200 py-4">
-        <div className="container mx-auto text-center">
-          <p className="text-sm">&copy; 2024 Laboratoire de Métrologie Dimensionnelle. Tous droits réservés.</p>
-        </div>
-      </footer>
+            <div className="w-full md:w-1/2 flex flex-col gap-4 p-4">
+              {/* Display images */}
+              {service.images.map((img, idx) => (
+                <motion.img
+                  key={idx}
+                  src={img}
+                  alt={service.title}
+                  className="w-full h-auto object-contain rounded-lg shadow-md transition-transform transform hover:scale-105"
+                  initial={{ opacity: 0, scale: 0.8 }}
+                  animate={{ opacity: 1, scale: 1 }}
+                  transition={{ duration: 0.5 }}
+                  onError={(e) => {
+                    e.target.onerror = null;
+                    e.target.src = "/path/to/placeholder.jpg"; // Placeholder image path
+                  }}
+                />
+              ))}
+            </div>
+          </div>
+        </motion.section>
+      ))}
     </div>
   );
 };
 
-export default EssaiDeTraction;
+export default EtalonnagePage;
