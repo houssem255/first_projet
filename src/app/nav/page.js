@@ -116,7 +116,7 @@ const EtalonnagePage = () => {
       <section className="bg-white shadow-lg rounded-lg p-8 mb-10 w-full max-w-5xl">
         <h2 className="text-3xl font-semibold text-gray-800 mb-4 text-center">Introduction</h2>
         <p className="text-gray-700 text-lg leading-relaxed">
-        L'essai de fatigue est un type d'essai mécanique visant à déterminer la résistance d'un matériau à des charges cycliques répétées. Contrairement aux essais statiques (traction, compression, flexion), l'essai de fatigue simule les conditions réelles de service où les matériaux sont soumis à des sollicitations variables dans le temps.
+        L&apos;essai de fatigue est un type d&apos;essai mécanique visant à déterminer la résistance d&apos;un matériau à des charges cycliques répétées. Contrairement aux essais statiques (traction, compression, flexion), l&apos;essai de fatigue simule les conditions réelles de service où les matériaux sont soumis à des sollicitations variables dans le temps.
         </p>
       </section>
 
