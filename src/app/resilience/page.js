@@ -1,105 +1,178 @@
-// pages/resilience.js
-"use client";
+"use client"
+import React from 'react';
+import { motion } from 'framer-motion';
 
-import Link from 'next/link';
-import styled from 'styled-components';
+const EtalonnagePage = () => {
+  const services = [
+    {
+      title: "Caractéristique ",
+      définitions: [
+        {
+          subtitle: "Les matériaux capables de supporter des charges de traction aussi élevées sont généralement des métaux ou des alliages à haute performance. Voici quelques exemples :",
+          items: [
+            "Energie max : 450 J ",
+            "Poids du marteau : 30.3 kg (approx. 300N)",
+            "Longueur du pendule :  770 mm ",
+            "Résolution en<< énergie 0.01 J et en angle 0.018°.",
+            "Vitesse : 5.42 m/s.",
+            "Système de mesure : via encodeur.",
+            "Capacité d’enregistré 1000 essais.",
 
-const Container = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 40px;
-  font-family: 'Arial', sans-serif;
-  background-color: #f5f5f5;
-  color: #333;
-`;
+          ],
+        },
+      ],
+      images: ["/Capture17.PNG"],
+    },
+    {
+      title: "Les différents types d'entailles",
+      définitions: [
+        {
+          
+          items: [
+            "•	L’entaille en V (type A dans la norme ASTM).",
+            "•	L’entaille en U (type C dans la norme ASTM) .",
+            "Le choix de l'entaille dépend de la norme utilisée et du type de matériau testé.",
+          
+          ],
+        },
+      ],
+      images: ["/Capture75.PNG"],
+    },
+    {
+      title: "L'entailleuse",
+      définitions: [
+        {
+          items: [
+            "Vitesse de coupe de broche : 7,1 à 37,8 mm/sec ",
+            "Fourchette de température de fonctionnement : 5°C à 40°C ",
+            "Classe de protection : Classe 1 (doit être reliée à la terre) ",
+            "Longueur du pendule :  770 mm",
+            "Résolution en énergie 0.01 J et en angle 0.018°. ",
+            "Vitesse : 5.42 m/s.",
+            
+          ],
+        },
+      ],
+      images: ["/Capture75.PNG"],
+    },
+    {
+      title: "Dispositif ",
+      définitions: [
+        {
+          subtitle: "Type pelle pour positionnement et centrage rapide des éprouvettes",
+        },
+      ],
+      images: ["/Capture712.PNG"],
+    },
+    {
+      title: "Centreur de référence",
+      définitions: [
+        {
+          items: [
+            "Pour ajustement et vérification du centrage des supports‐percuteur.",
+          ],
+        },
+      ],
+      images: ["/Capture46.PNG"],
+    },
+    {
+      title: "Pinces ASTM",
+      définitions: [
+        {
+          items: [
+            "Pour positionnement des éprouvettes sur les supports",
+          ],
+        },
+      ],
+      images: ["/Capture1456.PNG"],
+    },
 
-const Title = styled.h1`
-  font-size: 2.5rem;
-  color: #0070f3;
-  margin-bottom: 20px;
-`;
+  ];
 
-const Section = styled.section`
-  max-width: 800px;
-  margin: 20px 0;
-  padding: 20px;
-  background: white;
-  border-radius: 10px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-`;
-
-const Subtitle = styled.h2`
-  font-size: 2rem;
-  color: #0070f3;
-  margin-bottom: 10px;
-`;
-
-const List = styled.ul`
-  list-style-type: disc;
-  margin-left: 20px;
-`;
-
-const Image = styled.img`
-  width: 100%;
-  max-width: 600px;
-  border-radius: 10px;
-  margin: 20px 0;
-`;
-
-const ResiliencePage = () => {
   return (
-    <Container>
-      <Title>Qu&apos;est-ce que l&apos;essai de résilience ?</Title>
-      <Section>
-        <p>
-          L&apos;essai de résilience est un test mécanique qui permet d&apos;évaluer la capacité d&apos;un matériau à absorber
-          l&apos;énergie d&apos;un choc sans se rompre de manière fragile. En d&apos;autres termes, il mesure la résistance
-          d&apos;un matériau à un impact soudain.
+    <div
+      className="flex flex-col items-center p-4 min-h-screen"
+      style={{
+        backgroundImage: "url('/4872987.jpg')", // Background image path
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+      }}
+    >
+      <motion.img
+        src="/image (4).jpg"
+        alt="Étalonnage des Instruments"
+        className="w-full max-w-5xl mb-6 rounded-lg shadow-lg transition-transform transform hover:scale-105"
+        initial={{ opacity: 0, scale: 0.8 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 0.5 }}
+      />
+
+      <h1 className="text-4xl font-extrabold text-red-600 mb-6 text-center">Essai de Charpty</h1>
+
+      <section className="bg-white shadow-lg rounded-lg p-8 mb-10 w-full max-w-5xl">
+        <h2 className="text-3xl font-semibold text-gray-800 mb-4 text-center">Introduction</h2>
+        <p className="text-gray-700 text-lg leading-relaxed">
+        L&apos;essai de Charpy est une méthode standardisée utilisée en métallurgie pour évaluer la résistance d&apos;un matériau à la rupture par choc. Il est particulièrement pertinent pour les matériaux métalliques, mais peut également être appliqué à d&apos;autres types de matériaux. Cet essai mesure l&apos;énergie absorbée par un matériau lorsqu&apos;il est soumis à un choc soudain, ce qui permet d&apos;évaluer sa ténacité.
         </p>
-      </Section>
-      <Section>
-        <Subtitle>Pourquoi réaliser un essai de résilience ?</Subtitle>
-        <List>
-          <li>• Sécurité : Pour les matériaux utilisés dans des applications où des chocs sont possibles (par exemple, les structures métalliques, les équipements sportifs), l&apos;essai de résilience permet de garantir une certaine sécurité en évaluant la résistance aux chocs.</li>
-          <li>• Choix des matériaux : En comparant la résilience de différents matériaux, on peut sélectionner celui qui convient le mieux à une application spécifique.</li>
-          <li>• Étude du comportement des matériaux : L&apos;essai de résilience permet de comprendre comment un matériau se comporte lorsqu&apos;il est soumis à un choc, notamment en termes de propagation des fissures.</li>
-        </List>
-      </Section>
-      <Section>
-        <Subtitle>Comment se déroule un essai de résilience ?</Subtitle>
-        <p>
-          L&apos;essai de résilience le plus courant est l&apos;essai Charpy. Il consiste à frapper une éprouvette entaillée avec un pendule. 
-          L&apos;énergie perdue par le pendule lors de la rupture de l&apos;éprouvette correspond à l&apos;énergie absorbée par le matériau. 
-          Cette énergie est appelée résilience.
-        </p>
-        <Image src="/1.jpg" alt="Image d'un essai de résilience Charpy" />
-      </Section>
-      <Section>
-        <Subtitle>Les facteurs influençant la résilience</Subtitle>
-        <List>
-          <li>• La température : La résilience de nombreux matériaux diminue avec la baisse de température.</li>
-          <li>• La vitesse de chargement : Une vitesse de chargement plus élevée peut réduire la résilience.</li>
-          <li>• La nature de l&apos;entaille : La forme et la profondeur de l&apos;entaille influencent la propagation de la fissure.</li>
-          <li>• La microstructure du matériau : La présence de défauts, de précipités ou de grains peut affecter la résilience.</li>
-        </List>
-      </Section>
-      <Section>
-        <Subtitle>Les applications de l&apos;essai de résilience</Subtitle>
-        <List>
-          <li>• Métallurgie : Évaluation de la sensibilité à la rupture fragile des aciers, notamment à basse température.</li>
-          <li>• Construction : Contrôle de la qualité des matériaux utilisés dans les structures métalliques.</li>
-          <li>• Automobile : Évaluation de la résistance des pièces soumises à des chocs (par exemple, les pare-chocs).</li>
-          <li>• Aéronautique : Contrôle de la qualité des alliages légers utilisés dans la construction des avions.</li>
-        </List>
-      </Section>
-      <Section>
-        <p>
-          L&apos;essai de résilience est un outil essentiel pour caractériser la résistance aux chocs d&apos;un matériau. Il est particulièrement important pour les applications où la sécurité est primordiale. En comparant la résilience de différents matériaux, les ingénieurs peuvent sélectionner ceux qui sont les mieux adaptés à une application spécifique.
-        </p>
-      </Section>
-    </Container>
+      </section>
+
+      {services.map((service, index) => (
+        <motion.section
+          key={index}
+          className="bg-white shadow-lg rounded-lg p-0 mb-5 w-full max-w-3xl transition-transform transform hover:shadow-2xl"
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, delay: index * 0.1 }}
+        >
+          <h2
+            className={`text-2xl font-semibold text-gray-800 mb-4 text-center ${service.title === "Identification d'engrenage droit et hélicoidal" ? 'text-red-600' : ''}`}
+          >
+            {service.title}
+          </h2>
+
+          <div className="flex flex-col md:flex-row items-center justify-between">
+            <div className="w-full md:w-1/2 p-4 bg-gray-100 rounded-lg shadow-md">
+              {/* Loop through the definitions */}
+              {service.définitions.map((def, idx) => (
+                <div key={idx} className="mb-6">
+                  <h6 className="text-gray-800">{def.subtitle}</h6>
+                  <ul className="list-disc list-inside text-gray-700 leading-relaxed">
+                    {def.items && def.items.length > 0 ? (
+                      def.items.map((item, i) => (
+                        <li key={i}>{item}</li>
+                      ))
+                    ) : (
+                      <li></li>
+                    )}
+                  </ul>
+                </div>
+              ))}
+            </div>
+
+            <div className="w-full md:w-1/2 flex flex-col gap-4 p-4">
+              {/* Display images */}
+              {service.images.map((img, idx) => (
+                <motion.img
+                  key={idx}
+                  src={img}
+                  alt={service.title}
+                  className={`w-full ${service.title === "Les différents types d'entailles" || service.title === "L'entailleuse"|| service.title === "• Échelle de Rockwell :" ? 'max-w-[50%]' : 'max-w-[500px]'} h-auto object-contain rounded-lg shadow-md transition-transform transform hover:scale-105`}
+                  initial={{ opacity: 0, scale: 0.8 }}
+                  animate={{ opacity: 1, scale: 1 }}
+                  transition={{ duration: 0.5 }}
+                  onError={(e) => {
+                    e.target.onerror = null;
+                    e.target.src = "/path/to/placeholder.jpg"; // Placeholder image path
+                  }}
+                />
+              ))}
+            </div>
+          </div>
+        </motion.section>
+      ))}
+    </div>
   );
 };
 
-export default ResiliencePage;
+export default EtalonnagePage;

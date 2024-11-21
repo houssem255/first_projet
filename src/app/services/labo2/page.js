@@ -17,7 +17,7 @@ const LaboratoireDeMetrologie = () => {
     { icon: <FaCogs className="text-4xl text-red-600 mx-auto mb-4" />, title: "Essai de Dureté", description: "Mesures spécifiques", imgSrc: '/IMG_4138.JPG', link: '/durete' },
     { icon: <FaDraftingCompass className="text-4xl text-red-600 mx-auto mb-4" />, title: "Essai de Charpty", description: "Analyse des performances sous chargement cyclique.", imgSrc: '/IMG_4418.JPG', link: '/resilience' },
     { icon: <FaCheckCircle className="text-4xl text-red-600 mx-auto mb-4" />, title: "Essai de Fatigue", description: "Mesure de la ténacité à l&apos;impact.", imgSrc: '/IMG_4413.JPG', link: '/nav' },
-    { icon: <FaObjectGroup className="text-4xl text-red-600 mx-auto mb-4" />, title: "Essai de Compression", description: "Mesure de la résistance des matériaux.", link: '/resilience', imgSrc: '/tata.png' },
+    
     { icon: <FaObjectGroup className="text-4xl text-red-600 mx-auto mb-4" />, title: "Essai de Flexion", description: "Analyse de la résistance à la flexion .", link: '/flexion', imgSrc: '/Flexion.JPG' },
   ];
 
