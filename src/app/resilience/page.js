@@ -51,7 +51,7 @@ const EtalonnagePage = () => {
       }}
     >
       <motion.img
-        src="/image (4).jpg"
+        src="/images (19)-imageonline.co-merged.jpg"
         alt="Étalonnage des Instruments"
         className="w-full max-w-5xl mb-6 rounded-lg shadow-lg transition-transform transform hover:scale-105"
         initial={{ opacity: 0, scale: 0.8 }}
