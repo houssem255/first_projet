@@ -54,7 +54,7 @@ const EtalonnagePage = () => {
       images: ["/extention metre.png"],
     },
     {
-    title: "Essai de traction à température ambiante jusqu'a 1200 C° ",
+    title: "Essai de traction à température ambiante  ",
       définitions: [
         {
           subtitle: "L’essai de traction à température ambiante est une méthode simple et efficace pour évaluer la résistance et la ductilité d'un matériau (23°C)",
@@ -63,7 +63,7 @@ const EtalonnagePage = () => {
       images: ["/different types de matiere.png"],
     },
     {
-      title: "Essai de traction à haute température",
+      title: "Essai de traction à haute température jusqu'a 1200 C° ",
       définitions: [
         {
           items: [
@@ -79,7 +79,7 @@ const EtalonnagePage = () => {
     <div
       className="flex flex-col items-center p-4 min-h-screen"
       style={{
-        backgroundImage: "url('/4872987.jpg')", // Background image path
+        backgroundImage: "url('/4872987.jpg')", 
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
@@ -94,7 +94,7 @@ const EtalonnagePage = () => {
         transition={{ duration: 0.5 }}
       />
 
-      <h1 className="text-4xl font-extrabold text-red-600 mb-6 text-center">essai de traction</h1>
+      <h1 className="text-4xl font-extrabold text-red-600 mb-6 text-center">Essai de traction</h1>
 
       <section className="bg-white shadow-lg rounded-lg p-8 mb-10 w-full max-w-5xl">
         <h2 className="text-3xl font-semibold text-gray-800 mb-4 text-center">Introduction</h2>

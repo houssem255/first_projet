@@ -13,17 +13,12 @@ const EtalonnagePage = () => {
           items: [
             "•	Charge maximale (Fm)  ",
             "•	Flèche maximale (f) ",
-            "•	Module de flexion (E)",
+            
             "•	Contrainte maximale (σmax)",
-            "•	Énergie absorbée",
-            "•	Déplacement à la rupture",
-            "•	Ouverture de fissure",
-            "Course du piston ± 150mm. ",
-            "Amplitude dynamique ±75 à 0.25 Hz /±0.4mm à 50Hz.",
-            "Capteur de déplacement numérique SSI résolution r=0.0005.",
-            "Groupe hydraulique débit 45l/mn avec refroidissement air-eau." ,
-            "Système d’alignement mécanique monté entre la cellule de charge et la traverse.",
-            "Système de contrôle type MD58.",
+            
+            
+            
+            
 
            
           ],
@@ -49,7 +44,7 @@ const EtalonnagePage = () => {
       }}
     >
       <motion.img
-        src="/images (15)-imageonline.co-merged.png"
+        src="/xq-imageonline.co-merged.png"
         alt="Étalonnage des Instruments"
         className="w-full max-w-5xl mb-6 rounded-lg shadow-lg transition-transform transform hover:scale-105"
         initial={{ opacity: 0, scale: 0.8 }}

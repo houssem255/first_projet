@@ -14,16 +14,8 @@ const EtalonnagePage = () => {
             "Capacité en essai dynamique ±100KN. ",
             "Capacité en essai statique ±150KN.",
             "Fréquence de 0.01Hz à 50 Hz.",
-            "De 1 à 100% de sa capacité.",
-            "Distance verticale entre la cellule de charge et la table rainurée 950mm.",
-            "Distance entre colonnes 520mm.",
-            "Amplitude ± 75mm.",
-            "Course du piston ± 150mm. ",
-            "Amplitude dynamique ±75 à 0.25 Hz /±0.4mm à 50Hz.",
-            "Capteur de déplacement numérique SSI résolution r=0.0005.",
-            "Groupe hydraulique débit 45l/mn avec refroidissement air-eau." ,
-            "Système d’alignement mécanique monté entre la cellule de charge et la traverse.",
-            "Système de contrôle type MD58.",
+            
+            
 
            
           ],
@@ -40,10 +32,6 @@ const EtalonnagePage = () => {
             "•	Nombre de cycles à la rupture (Nf)",
             "•	Amplitude de la contrainte (Δσ)",
             "•	Rapport de contrainte (R)",
-            "•	Fréquence de chargement",
-            "•	Déplacement",
-            "•	Ouverture de fissure",
-            "•	Énergie dissipée",
             "•	Température",
             "•	Fréquence de résonance",
 
@@ -70,7 +58,7 @@ const EtalonnagePage = () => {
       }}
     >
       <motion.img
-        src="/images (10)-imageonline.co-merged.jpg"
+        src="/materaux-imageonline.co-merged.png"
         alt="Étalonnage des Instruments"
         className="w-full max-w-5xl mb-6 rounded-lg shadow-lg transition-transform transform hover:scale-105"
         initial={{ opacity: 0, scale: 0.8 }}

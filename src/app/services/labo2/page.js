@@ -25,7 +25,7 @@ const LaboratoireDeMetrologie = () => {
     <div className="bg-gray-100">
       <div className="relative">
         <Image
-          src="/Equipements CTIME.jpg"
+          src="/2-imageonline.co-merged.png"
           alt="Laboratoire de Métrologie Dimensionnelle"
           className={`w-full h-[250px] object-cover transform transition-transform duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-[-50px]'}`}
           width={1000}

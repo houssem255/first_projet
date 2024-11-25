@@ -85,11 +85,7 @@ export default function First() {
         </div>
       </div>
 
-      <button className="mt-2 px-4 py-1 bg-red-600 text-white rounded-full shadow-lg hover:bg-red-500 transition duration-200 transform hover:scale-105">
-        <Link href="/ctime">
-          En savoir plus
-        </Link>
-      </button>
+      
     </section>
   );
 }
