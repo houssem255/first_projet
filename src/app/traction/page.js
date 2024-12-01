@@ -97,7 +97,7 @@ const EtalonnagePage = () => {
       <h1 className="text-4xl font-extrabold text-red-600 mb-6 text-center">Essai de traction</h1>
 
       <section className="bg-white shadow-lg rounded-lg p-8 mb-10 w-full max-w-5xl">
-        <h2 className="text-3xl font-semibold text-gray-800 mb-4 text-center">Introduction</h2>
+        
         <p className="text-gray-700 text-lg leading-relaxed">
           Un essai de traction est une méthode d&apos;essai mécanique qui consiste à soumettre un échantillon de matériau à une force de traction croissante jusqu&apos;à sa rupture. Cette méthode permet d&apos;obtenir des informations cruciales sur les propriétés mécaniques du matériau.
         </p>

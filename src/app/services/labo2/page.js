@@ -13,7 +13,7 @@ const LaboratoireDeMetrologie = () => {
   }, []);
 
   const services = [
-    { icon: <FaRulerCombined className="text-4xl text-red-600 mx-auto mb-4" />, title: "Essai de Traction", description: "Essais spécifiques", link: '/traction', imgSrc: '/IMG_4411.JPG' },
+    { icon: <FaRulerCombined className="text-4xl text-red-600 mx-auto mb-4" />, title: "Essai de Traction", description: "Essais spécifiques", link: '/traction', imgSrc: '/IMG_4568.JPG' },
     { icon: <FaCogs className="text-4xl text-red-600 mx-auto mb-4" />, title: "Essai de Dureté", description: "Mesures spécifiques", imgSrc: '/IMG_4138.JPG', link: '/durete' },
     { icon: <FaDraftingCompass className="text-4xl text-red-600 mx-auto mb-4" />, title: "Essai de Charpty", description: "Analyse des performances sous chargement cyclique.", imgSrc: '/Capture4.PNG', link: '/resilience' },
     { icon: <FaCheckCircle className="text-4xl text-red-600 mx-auto mb-4" />, title: "Essai de Fatigue", description: "Mesure de la ténacité à l&apos;impact.", imgSrc: '/IMG_4413.JPG', link: '/nav' },
@@ -25,7 +25,7 @@ const LaboratoireDeMetrologie = () => {
     <div className="bg-gray-100">
       <div className="relative">
         <Image
-          src="/2-imageonline.co-merged.png"
+          src="/1-imageonline.co-merged.png"
           alt="Laboratoire de Métrologie Dimensionnelle"
           className={`w-full h-[250px] object-cover transform transition-transform duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-[-50px]'}`}
           width={1000}

@@ -82,7 +82,7 @@ const EtalonnagePage = () => {
 
       <h1 className="text-4xl font-extrabold text-red-600 mb-6 text-center">Essai de Dureté</h1>
       <section className="bg-white shadow-lg rounded-lg p-8 mb-10 w-full max-w-5xl">
-        <h2 className="text-3xl font-semibold text-gray-800 mb-4 text-center">Introduction</h2>
+     
         <p className="text-gray-700 text-lg leading-relaxed">
         La dureté est une propriété physique qui caractérise la résistance d’un matériau à être pénétré, rayé ou déformé. Elle mesure la capacité d’un matériau à résister à l’usure, à la pénétration d’un objet plus dur et à la déformation plastique.
         </p>

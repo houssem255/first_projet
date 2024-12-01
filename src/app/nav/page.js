@@ -39,7 +39,7 @@ const EtalonnagePage = () => {
           ],
         },
       ],
-      images: ["/Capturehl.PNG"],
+      images: ["/IMG_4412.JPG"],
     },
   
    
@@ -58,7 +58,7 @@ const EtalonnagePage = () => {
       }}
     >
       <motion.img
-        src="/materaux-imageonline.co-merged.png"
+        src="/image (10).jpg"
         alt="Étalonnage des Instruments"
         className="w-full max-w-5xl mb-6 rounded-lg shadow-lg transition-transform transform hover:scale-105"
         initial={{ opacity: 0, scale: 0.8 }}
@@ -66,9 +66,9 @@ const EtalonnagePage = () => {
         transition={{ duration: 0.5 }}
       />
 
-      <h1 className="text-4xl font-extrabold text-red-600 mb-6 text-center">essai de fatigue</h1>
+      <h1 className="text-4xl font-extrabold text-red-600 mb-6 text-center">Essai de fatigue</h1>
       <section className="bg-white shadow-lg rounded-lg p-8 mb-10 w-full max-w-5xl">
-        <h2 className="text-3xl font-semibold text-gray-800 mb-4 text-center">Introduction</h2>
+       
         <p className="text-gray-700 text-lg leading-relaxed">
         L&apos;essai de fatigue est un outil indispensable pour évaluer la durée de vie d&apos;un matériau soumis à des sollicitations cycliques. Il permet de garantir la fiabilité des structures et d&apos;optimiser la conception des composants.
         </p>

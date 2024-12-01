@@ -62,7 +62,7 @@ const EtalonnagePage = () => {
       <h1 className="text-4xl font-extrabold text-red-600 mb-6 text-center">Essai de Charpty</h1>
 
       <section className="bg-white shadow-lg rounded-lg p-8 mb-10 w-full max-w-5xl">
-        <h2 className="text-3xl font-semibold text-gray-800 mb-4 text-center">Introduction</h2>
+        
         <p className="text-gray-700 text-lg leading-relaxed">
         L&apos;essai de Charpy est une méthode standardisée utilisée en métallurgie pour évaluer la résistance d&apos;un matériau à la rupture par choc. Il est particulièrement pertinent pour les matériaux métalliques, mais peut également être appliqué à d&apos;autres types de matériaux. Cet essai mesure l&apos;énergie absorbée par un matériau lorsqu&apos;il est soumis à un choc soudain, ce qui permet d&apos;évaluer sa ténacité.
         </p>

@@ -24,7 +24,7 @@ const EtalonnagePage = () => {
           ],
         },
       ],
-      images: ["/Capturesy.PNG"],
+      images: ["/image (2).png"],
     },
     
   
@@ -52,9 +52,9 @@ const EtalonnagePage = () => {
         transition={{ duration: 0.5 }}
       />
 
-      <h1 className="text-4xl font-extrabold text-red-600 mb-6 text-center">essai de flexion</h1>
+      <h1 className="text-4xl font-extrabold text-red-600 mb-6 text-center">Essai de flexion</h1>
       <section className="bg-white shadow-lg rounded-lg p-8 mb-10 w-full max-w-5xl">
-        <h2 className="text-3xl font-semibold text-gray-800 mb-4 text-center">Introduction</h2>
+      
         <p className="text-gray-700 text-lg leading-relaxed">
         L&apos;essai de flexion est une méthode d&apos;essai mécanique qui consiste à soumettre un matériau ou un élément structurel à une charge qui provoque une courbure. Il permet d&apos;évaluer la résistance d&apos;un matériau à la flexion, c&apos;est-à-dire sa capacité à résister à une déformation sans se rompre.
         </p>
