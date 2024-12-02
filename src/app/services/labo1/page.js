@@ -64,14 +64,72 @@ const LaboratoireDeMetrologie = () => {
         </ul>
 
         <h3 className="text-2xl font-semibold text-black mb-2">Les paramètres mesurés</h3>
-        <ul className="list-disc list-inside text-black mb-4">
-          <li><strong>Longueur :</strong> Mesure de la distance entre deux points.</li>
-          <li><strong>Largeur :</strong> Dimension transversale d&apos;une pièce.</li>
-          <li><strong>Hauteur :</strong> Distance verticale d&apos;une pièce.</li>
-          <li><strong>Angle :</strong> Mesure de l&apos;écart entre deux lignes.</li>
-          <li><strong>Rugosité :</strong> Vérification de la circularité d&apos;un objet.</li>
-          <li><strong>Cylindricité :</strong> Rupture sous charge répétée.</li>
-        </ul>
+<ul className="list-disc list-inside text-black mb-4">
+  <li><strong>Des dimensions : </strong> longueur, largeur, hauteur, angle …</li>
+  <li className="flex ">
+    
+    
+    <strong>•  Dimensionnement et tolérance géométriques ‘GD&T’ :</strong>
+      <Image
+        src="/hjhkjh.jpg"
+        alt="Laboratoire de Métrologie Dimensionnelle"
+        className={`w-6 h-6  ml-2 object-cover transform transition-transform duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-[-50px]'}`}
+        width={25}
+        height={25}
+      />
+      <Image
+        src="/wcbn.jpg"
+        alt="Laboratoire de Métrologie Dimensionnelle"
+        className={`w-6 h-6   ml-2 object-cover transform transition-transform duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-[-50px]'}`}
+        width={25}
+        height={25}
+      />
+      <Image
+        src="/klmq.jpg"
+        alt="Laboratoire de Métrologie Dimensionnelle"
+        className={`w-6 h-6  ml-2 object-cover transform transition-transform duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-[-50px]'}`}
+        width={25}
+        height={25}
+      />
+      <Image
+        src="/mpqrcj.jpg"
+        alt="Laboratoire de Métrologie Dimensionnelle"
+        className={`w-6 h-6 object-cover transform transition-transform duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-[-50px]'}`}
+        width={25}
+        height={25}
+      />
+      <Image
+        src="/qsdf.jpg"
+        alt="Laboratoire de Métrologie Dimensionnelle"
+        className={`w-6 h-6  ml-2 object-cover transform transition-transform duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-[-50px]'}`}
+        width={25}
+        height={25}
+      />
+      <Image
+        src="/fbt.jpg"
+        alt="Laboratoire de Métrologie Dimensionnelle"
+        className={`w-6 h-6  ml-2 object-cover transform transition-transform duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-[-50px]'}`}
+        width={25}
+        height={25}
+      />
+      <Image
+        src="/cv.jpg"
+        alt="Laboratoire de Métrologie Dimensionnelle"
+        className={`w-6 h-6  ml-2 object-cover transform transition-transform duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-[-50px]'}`}
+        width={25}
+        height={25}
+      />
+      <Image
+        src="/0.jpg"
+        alt="Laboratoire de Métrologie Dimensionnelle"
+        className={`w-6 h-6  ml-2 object-cover transform transition-transform duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-[-50px]'}`}
+        width={25}
+        height={25}
+      />
+      <strong>....</strong> </li>
+  
+</ul>
+
 
         <h2 className="text-3xl font-semibold text-center text-black mb-10">Nos services</h2>
 

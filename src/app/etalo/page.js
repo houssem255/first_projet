@@ -24,7 +24,7 @@ const EtalonnagePage = () => {
       images: ["/12.jpg"],
     },
     {
-      title: "Micromètres d&apos;extérieur",
+      title: "Micromètres d'extérieur",
       Capacite: [
         "0 .. 25 mm",
         "25 .. 100 mm",
@@ -50,6 +50,15 @@ const EtalonnagePage = () => {
       images: ["/15.jpg"],
     },
     {
+      title: " bagues de réglage ( bagues lisses) jusqu'à 250 mm",
+      Capacite: [
+        "Étalonnage diamètre (standard) : Détermination du diamètre à 2 niveaux par niveau : 2 mésurages (90° tordu).",
+        "Étalonnage diamètre + circularité : Détermination du diamètre à 2 niveaux par niveau : 2 mésurages (90° tordu).",
+        "Détermination de la cylindricité à deux niveaux.",
+      ],
+      images: ["/21.jpg", "/16.jpg"],
+    },
+    {
       title: "Tampons lisses (2 côtés, combinaison GO + NO GO)",
       Capacite: [
         "Détermination du diamètre par 2 x deux mesurages à 90° l&apos;un sur l&apos;autre à 2 niveaux du côté de GO.",
@@ -59,15 +68,7 @@ const EtalonnagePage = () => {
       ],
       images: ["/28.jpg"],
     },
-    {
-      title: "Jauges bagues de réglage (jauges bagues lisses) jusqu&apos;à 250 mm",
-      Capacite: [
-        "Étalonnage diamètre (standard) : Détermination du diamètre à 2 niveaux par niveau : 2 mésurages (90° tordu).",
-        "Étalonnage diamètre + circularité : Détermination du diamètre à 2 niveaux par niveau : 2 mésurages (90° tordu).",
-        "Détermination de la cylindricité à deux niveaux.",
-      ],
-      images: ["/21.jpg", "/23.png"],
-    },
+    
     {
       title: "Calibres mâchoires (combinaison GO + NO GO)",
       Capacite: [
@@ -78,7 +79,7 @@ const EtalonnagePage = () => {
       images: ["/30.jpg"],
     },
     {
-      title: "Jauges bagues filetées: type cylindrique",
+      title: " bagues filetées: type cylindrique",
       subtitle: "Calibre GO ou NO GO",
       Capacite: [
         "Flankendiameter diamètre :",
@@ -89,7 +90,7 @@ const EtalonnagePage = () => {
       images: ["/40.jpg"],
     },
     {
-      title: "Jauges tampons de filetage: type cylindrique",
+      title: " tampons de filetage: type cylindrique",
       subtitle: "Calibre 2 côtés (GO + NO GO)",
       Capacite: [
         "Diamètre : ≤ 100 mm",
