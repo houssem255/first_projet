@@ -16,9 +16,9 @@ const LaboratoireDeMetrologie = () => {
   const services = [
     { icon: <FaTools className="text-4xl text-red-600 mx-auto mb-4" />, title: "Etalonnage dimensionnelle", description: "Étalonnage précis des instruments à cote variable et des étalons de référence.", link: '/etalo', imgSrc: '/EtalCale.JPG' },
     { icon: <FaRulerCombined className="text-4xl text-red-600 mx-auto mb-4" />, title: "Inspection d'engrenage", description: "Étalonnage précis des instruments à cote variable et des étalons de référence.", link: '/engrenage', imgSrc: '/Engrenage.png' },
-    { icon: <FaCogs className="text-4xl text-red-600 mx-auto mb-4" />, title: "Vérification de moyens de production", description: "Vérification des formes, des positions et des états de surface.", imgSrc: '/Eprouvette.jpg' },
-    { icon: <FaDraftingCompass className="text-4xl text-red-600 mx-auto mb-4" />, title: "Etat de surface et contour de profil", description: "Expertise et mesure des pièces complexes avec précision.", imgSrc: '/456.png' },
-    { icon: <FaCheckCircle className="text-4xl text-red-600 mx-auto mb-4" />, title: "Pièces complexe", description: "Contrôle rigoureux des moyens de production pour une qualité optimale.", imgSrc: '/Piece chaoui.png' },
+    { icon: <FaCogs className="text-4xl text-red-600 mx-auto mb-4" />, title: "Vérification de moyens de production", description: "Vérification des formes, des positions et des états de surface.", link: '/production', imgSrc: '/moyens de production.jpg' },
+    { icon: <FaDraftingCompass className="text-4xl text-red-600 mx-auto mb-4" />, title: "Etat de surface et contour de profil", description: "Détecter les caractéristiques géométriques et les caractéristiques de surface des pièces.", link: '/surface', imgSrc: '/imgonline-com-ua-collage-B6xL8tvDBCD.jpg' },
+    { icon: <FaCheckCircle className="text-4xl text-red-600 mx-auto mb-4" />, title: "Pièces complexe", description: "Contrôle rigoureux des moyens de production pour une qualité optimale.", imgSrc: '/154.png' ,link: '/complexe' },
     { icon: <FaObjectGroup className="text-4xl text-red-600 mx-auto mb-4" />, title: "Pièces volumineuse", description: "Réalisation de rétro-conception et vérification de pièces volumineuses.", link: '/Retro', imgSrc: '/Flexion.JPG' },
     { icon: <FaObjectGroup className="text-4xl text-red-600 mx-auto mb-4" />, title: "Digitalisation 3D", description: "Réalisation de rétro-conception et vérification de pièces volumineuses.", link: '/Retro', imgSrc: '/tata.png' },
   ];
@@ -127,11 +127,13 @@ const LaboratoireDeMetrologie = () => {
         height={25}
       />
       <strong>....</strong> </li>
+      <li><strong>La rugosité (État de surface)</strong>  </li>
   
 </ul>
+ 
 
 
-        <h2 className="text-3xl font-semibold text-center text-black mb-10">Nos services</h2>
+        <h2 className="text-3xl font-semibold text-center  text-black mb-25 my-20">Nos services</h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 text-center">
           {services.map(({ icon, title, description, link, imgSrc }, index) => (

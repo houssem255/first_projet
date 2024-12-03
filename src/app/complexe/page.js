@@ -12,106 +12,22 @@ const EtalonnagePage = () => {
       ],
       images: ["/19.jpg", "/20.jpg"],
     }, 
-    {
-      title: "Étalonnage de pieds à coulisse",
-      Capacite: [
-        "-0 .. 150 mm",
-        "-0 .. 300 mm",
-        "-0 .. 500 mm",
-        "-0 .. 1000 mm",
-        "-0 .. 2000 mm",
-      ],
-      images: ["/12.jpg"],
-    },
-    {
-      title: "Micromètres d'extérieur",
-      Capacite: [
-        "0 .. 25 mm",
-        "25 .. 100 mm",
-        "100 .. 500 mm",
-        "500 .. 1000 mm",
-        "1000 .. 1500 mm",
-      ],
-      images: ["/4.jpg", "/5.jpg"],
-    },
-    {
-      title: "Comparateurs",
-      subtitle: "(DIN 878 ou conforme)",
-      Capacite: [
-        "0 .. 13 mm",
-        "> 13 mm",
-      ],
-      images: ["/7.png"],
-    },
-    {
-      title: "Palpeurs orientables (Puppitast…)",
-      subtitle: "(DIN 2270 ou conforme)",
-      Capacite: [],
-      images: ["/15.jpg"],
-    },
-    {
-      title: " bagues de réglage ( bagues lisses) jusqu'à 250 mm",
-      Capacite: [
-        "Étalonnage diamètre (standard) : Détermination du diamètre à 2 niveaux par niveau : 2 mésurages (90° tordu).",
-        "Étalonnage diamètre + circularité : Détermination du diamètre à 2 niveaux par niveau : 2 mésurages (90° tordu).",
-        "Détermination de la cylindricité à deux niveaux.",
-      ],
-      images: ["/21.jpg", "/16.jpg"],
-    },
-    {
-      title: "Tampons lisses (2 côtés, combinaison GO + NO GO)",
-      Capacite: [
-        "Détermination du diamètre par 2 x deux mesurages à 90° l&apos;un sur l&apos;autre à 2 niveaux du côté de GO.",
-        "1 x deux mesurages à 90° l&apos;un sur l&apos;autre du côté de NO GO.",
-        "Diamètre : 0 .. 100 mm",
-        "> 100 mm",
-      ],
-      images: ["/28.jpg"],
-    },
+  
     
-    {
-      title: "Calibres mâchoires (combinaison GO + NO GO)",
-      Capacite: [
-        "Grandeur : 0 .. 100 mm",
-        "100 .. 200 mm",
-        "200 .. 300 mm",
-      ],
-      images: ["/30.jpg"],
-    },
-    {
-      title: " bagues filetées: type cylindrique",
-      subtitle: "Calibre GO ou NO GO",
-      Capacite: [
-        "Flankendiameter diamètre :",
-        "3 .. 100 mm",
-        "100 .. 150 mm",
-        "150 .. 200 mm",
-      ],
-      images: ["/40.jpg"],
-    },
-    {
-      title: " tampons de filetage: type cylindrique",
-      subtitle: "Calibre 2 côtés (GO + NO GO)",
-      Capacite: [
-        "Diamètre : ≤ 100 mm",
-        "> 100 mm",
-      ],
-      images: ["/38.png"],
-    },
-    {
-      title: "Calibre 1 côté (GO ou NO GO)",
-      Capacite: [
-        "Diamètre : ≤ 100 mm",
-        "100 mm",
-      ],
-      images: ["/39.jpg"],
-    },
+   
+   
+   
+   
+    
+   
+ 
+    
   ];
 
   return (
     <div className="flex flex-col items-center bg-gray-100 p-10 min-h-screen">
       <motion.img
-        src="/59b74429-e2a7-4281-85af-9eed1f43f74d-imageonline.co-merged.png"
+        src="/33.jpg"
         alt="Étalonnage des Instruments"
         className="w-full max-w-3xl mb-6 rounded-lg shadow-lg transition-transform transform hover:scale-105"
         initial={{ opacity: 0, scale: 0.8 }}
@@ -119,13 +35,12 @@ const EtalonnagePage = () => {
         transition={{ duration: 0.5 }}
       />
 
-      <h1 className="text-5xl font-extrabold text-red-600 mb-4 text-center">Service d&apos;Étalonnage des Instruments</h1>
+      <h1 className="text-5xl font-extrabold text-red-600 mb-4 text-center">Pièces complexe</h1>
       
       <section className="bg-white shadow-lg rounded-lg p-6 mb-8 w-full max-w-2xl">
         
         <p className="text-gray-700">
-          Nous proposons un service professionnel d&apos;étalonnage pour tous vos instruments de mesure. 
-          Assurez-vous de la précision de vos outils et respectez les normes en vigueur.
+        •	L’existence des machines à Mesurer Tridimensionnelle (3D) permettant d’effectuer des mesures sur des pièces complexes (des pièces à haute précisions, des gabarits, des outillages et des pièces de prototypes complexes).
         </p>
       </section>
 

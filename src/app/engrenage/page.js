@@ -212,7 +212,7 @@ const EtalonnagePage = () => {
       <h1 className="text-4xl font-extrabold text-red-600 mb-6 text-center">Inspection d&apos;engrenage</h1>
 
       <section className="bg-white shadow-lg rounded-lg p-8 mb-10 w-full max-w-5xl">
-        <h2 className="text-3xl font-semibold text-gray-800 mb-4 text-center">Introduction</h2>
+        
         <p className="text-gray-700 text-lg leading-relaxed">
           L&apos;inspection des engrenages a toujours été un domaine très pointu. Avec des calculs spécifiques à la géométrie des engrenages, même les meilleurs inspecteurs ne pouvaient en général pas exploiter les détails de la géométrie de ces éléments. On utilisait traditionnellement un matériel dédié à l&apos;inspection des engrenages, très onéreux, qui était la seule méthode permettant d&apos;identifier des problèmes de fabrication. La possibilité d&apos;automatiser l&apos;inspection des engrenages à l&apos;aide d&apos;une MMT, un équipement plus flexible et relativement économique, met l&apos;inspection des engrenages à la portée de presque tout atelier qui en a besoin. L&apos;autre avantage est que de nombreux ateliers possèdent de toute façon une MMT automatique. Ainsi, l&apos;inspection des engrenages étend les fonctionnalités d&apos;un outil existant.
         </p>
