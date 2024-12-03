@@ -46,7 +46,7 @@ const EtalonnagePage = () => {
       <section className="bg-white shadow-lg rounded-lg p-8 mb-10 w-full max-w-5xl">
         
         <p className="text-gray-700 text-lg leading-relaxed">
-        •	La surveillance et l'amélioration de la précision pour les machines CNC (Computer Numerical Control), CMMS (Coordinate Measuring Machines), machines à mesurer la longueur, etc. Par interférométrie (Contrôle le déplacement suivant l’axe X, Y et Z. La rotation de la table à 360°).
+        •	La surveillance et l&apos;amélioration de la précision pour les machines CNC (Computer Numerical Control), CMMS (Coordinate Measuring Machines), machines à mesurer la longueur, etc. Par interférométrie (Contrôle le déplacement suivant l&apos;axe X, Y et Z. La rotation de la table à 360°).
         </p>
       </section>
 
