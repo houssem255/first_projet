@@ -18,8 +18,8 @@ const LaboratoireDeMetrologie = () => {
     { icon: <FaRulerCombined className="text-4xl text-red-600 mx-auto mb-4" />, title: "Inspection d'engrenage", description: "Étalonnage précis des instruments à cote variable et des étalons de référence.", link: '/engrenage', imgSrc: '/Engrenage.png' },
     { icon: <FaCogs className="text-4xl text-red-600 mx-auto mb-4" />, title: "Vérification de moyens de production", description: "Vérification des formes, des positions et des états de surface.", link: '/production', imgSrc: '/moyens de production.jpg' },
     { icon: <FaDraftingCompass className="text-4xl text-red-600 mx-auto mb-4" />, title: "Etat de surface et contour de profil", description: "Détecter les caractéristiques géométriques et les caractéristiques de surface des pièces.", link: '/surface', imgSrc: '/imgonline-com-ua-collage-B6xL8tvDBCD.jpg' },
-    { icon: <FaCheckCircle className="text-4xl text-red-600 mx-auto mb-4" />, title: "Pièces complexe", description: "Contrôle rigoureux des moyens de production pour une qualité optimale.", imgSrc: '/154.png' ,link: '/complexe' },
-    { icon: <FaObjectGroup className="text-4xl text-red-600 mx-auto mb-4" />, title: "Pièces volumineuse", description: "Réalisation de rétro-conception et vérification de pièces volumineuses.", link: '/Retro', imgSrc: '/Flexion.JPG' },
+    { icon: <FaCheckCircle className="text-4xl text-red-600 mx-auto mb-4" />, title: "Pièces complexe", description: "Contrôle rigoureux des moyens de production pour une qualité optimale.", imgSrc: '/imgonline-com-ua-twotoone-Xqs0kucM0vXfxunV.jpg' ,link: '/complexe' },
+    { icon: <FaObjectGroup className="text-4xl text-red-600 mx-auto mb-4" />, title: "Pièces volumineuse", description: "Réalisation de rétro-conception et vérification de pièces volumineuses.", link: '/volumineuses', imgSrc: '/39-imageonline.co-merged.jpg' },
     { icon: <FaObjectGroup className="text-4xl text-red-600 mx-auto mb-4" />, title: "Digitalisation 3D", description: "Réalisation de rétro-conception et vérification de pièces volumineuses.", link: '/Retro', imgSrc: '/tata.png' },
   ];
 
