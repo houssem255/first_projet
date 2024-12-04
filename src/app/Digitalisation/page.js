@@ -41,7 +41,7 @@ const EtalonnagePage = () => {
         transition={{ duration: 0.5 }}
       />
 
-      <h1 className="text-4xl font-extrabold text-red-600 mb-6 text-center">Essai de Dureté</h1>
+      <h1 className="text-4xl font-extrabold text-red-600 mb-6 text-center">Digitalisation 3D</h1>
       <section className="bg-white shadow-lg rounded-lg p-8 mb-10 w-full max-w-5xl">
      
         <p className="text-gray-700 text-lg leading-relaxed">
