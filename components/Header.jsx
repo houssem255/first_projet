@@ -139,7 +139,7 @@ export default function Navbar() {
                           <>
                             <li><Link href="/services/labo2" className="block px-4 py-2 hover:bg-gray-200">Laboratoire d&apos;Essais Mécaniques</Link></li>
                             <li><Link href="/services/labo1" className="block px-4 py-2 hover:bg-gray-200">Laboratoire de Métrologie Dimensionnelle</Link></li>
-                            <li><Link href="/services/reverse-engineering" className="block px-4 py-2 hover:bg-gray-200">Rétroconception</Link></li>
+                            <li><Link href="/Retro" className="block px-4 py-2 hover:bg-gray-200">Rétroconception</Link></li>
                           </>
                         )}
                         {item === 'formations' && (

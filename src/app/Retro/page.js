@@ -4,9 +4,9 @@ import { motion } from 'framer-motion';
 
 const AboutUsPage = () => {
   return (
-    <div className="flex flex-col items-center bg-gray-100 p-10 min-h-screen">
+    <div className="flex flex-col items-center bg-gray-100 p-10 min-h-screen" style={{ backgroundImage: 'url("/4872987.jpg")' }}>
       <motion.img
-        src="/Bille Brinelle 10mm (1).jpg" // Remplace par l'URL de ton image
+        src="/Capturehl.PNG" // Remplace par l'URL de ton image
         alt="Présentation de l'entreprise"
         className="w-full max-w-3xl mb-6 rounded-lg shadow-lg transition-transform transform hover:scale-105"
         initial={{ opacity: 0, scale: 0.8 }}
@@ -14,13 +14,21 @@ const AboutUsPage = () => {
         transition={{ duration: 0.5 }}
       />
 
-      <h1 className="text-5xl font-extrabold text-red-600 mb-4 text-center">Rétro-conception</h1>
+      <h1 className="text-5xl font-extrabold text-red-600 mb-4 text-center">Rétroconception </h1>
       
       <section className="bg-white shadow-lg rounded-lg p-6 mb-8 w-full max-w-2xl">
         <h2 className="text-3xl font-semibold text-gray-800 mb-2">Notre Mission</h2>
         <p className="text-gray-700">
-          Nous sommes dédiés à fournir des solutions de haute qualité dans le domaine de l&apos;étalonnage et de la métrologie. 
-          Notre équipe d&apos;experts s&apos;assure que vos instruments sont toujours précis et conformes aux normes en vigueur.
+        La rétro-ingénierie est le processus qui permet d’identifier Les propriétés d’un objet physique en effectuant une analyse complète de sa structure, de ses fonctions et de ses conditions de fonctionnement. 
+        </p>
+        <p>
+        Les mesures de la géométrie de la surface totale de l’objet sont prises, soit manuellement, soit à l’aide de diverses technologies de mesure.
+        </p>
+      </section>
+      <section className="bg-white shadow-lg rounded-lg p-6 mb-8 w-full max-w-2xl">
+        <h2 className="text-xl font-semibold text-gray-800 mb-2">RÉTRO CONCEPTION PAR NUMÉRISATION 3D</h2>
+        <p className="text-gray-700">
+        C’est une technologie de mesure 3D, afin de créer une représentation numérique 3D de l’objet. Elle permet de relever les géométries les plus complexes.
         </p>
       </section>
 

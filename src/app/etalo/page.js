@@ -109,7 +109,7 @@ const EtalonnagePage = () => {
   ];
 
   return (
-    <div className="flex flex-col items-center bg-gray-100 p-10 min-h-screen">
+    <div className="flex flex-col items-center bg-gray-100 p-10 min-h-screen"style={{ backgroundImage: 'url("/4872987.jpg")' }}>
       <motion.img
         src="/59b74429-e2a7-4281-85af-9eed1f43f74d-imageonline.co-merged.png"
         alt="Étalonnage des Instruments"
