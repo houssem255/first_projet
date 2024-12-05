@@ -144,7 +144,7 @@ export default function Navbar() {
                         )}
                         {item === 'formations' && (
                           <>
-                            <li><Link href="/formations/cours" className="block px-4 py-2 hover:bg-gray-200">Nos Cours</Link></li>
+                            
                             <li><Link href="/blog" className="block px-4 py-2 hover:bg-gray-200">Programmes de Formation</Link></li>
                           </>
                         )}

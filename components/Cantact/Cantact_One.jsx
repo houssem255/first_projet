@@ -5,7 +5,7 @@ export default function Cantact_One() {
     <div className="w-full lg:w-1/2 mt-5 flex flex-col gap-3">
         <div className="flex items-center gap-2.5 border rounded-md px-4 py-2">
             <Image 
-              src="/images45.jfif" 
+              src="/images45.jpg" 
               alt="Aide d'entreprise" 
               title="Aide d'entreprise" 
               draggable="false" 
@@ -27,7 +27,7 @@ export default function Cantact_One() {
         
         <div className="flex items-center gap-2.5 border rounded-md px-4 py-2">
             <Image 
-              src="/images98.jfif" 
+              src="/images98.jpg" 
               alt="Préoccupations RH" 
               title="Préoccupations RH" 
               draggable="false" 

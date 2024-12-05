@@ -7,10 +7,10 @@ import Link from "next/link"
 export default function Footer() {
 
     return (
-        <footer className="bg-black text-white py-8">
+        <footer className="bg-black text-white py-0 ">
         <div className="container mx-auto px-4 md:pt-20 pt-10">
           
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-0">
             
             <div>
               <h3 className="text-lg font-bold mb-4">Adresse</h3>
@@ -57,7 +57,7 @@ export default function Footer() {
           
           <hr className="my-8 border-gray-600" />
 
-          <div className="flex items-center justify-between">
+          <div className="flex items-center ml-50">
             <Image 
                 src="/ctime.png"  
                 alt="Logo"
@@ -65,7 +65,7 @@ export default function Footer() {
                 height={80}      
                 className="object-contain h-8 mr-4"
               />
-            <p className="text-sm text-gray-500">&copy; {new Date().getFullYear()} Ctime. Tous droits réservés.</p>
+            <p className="text-center text-gray-200  ">&copy; {new Date().getFullYear()} Ctime. Tous droits réservés.</p>
           </div>
         </div>
       </footer>

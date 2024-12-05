@@ -30,9 +30,7 @@ export default function Couv() {
         <div className="my-8" />
         
         <Actualites />
-        <div className="my-8" /> 
         
-        <Clients />
       </div>
     </section>
   );
