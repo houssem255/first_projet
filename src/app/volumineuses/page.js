@@ -53,7 +53,7 @@ const EtalonnagePage = () => {
           <li>
  Batiment industrielle
  </li>
-          <li>Ouvrage d'art</li>
+          <li>Ouvrage d&lsquo;art</li>
           <li>Mat de forage</li>
           <li>Construction navale</li>
           <li>Tours (Administratif, habitation,....)</li>
