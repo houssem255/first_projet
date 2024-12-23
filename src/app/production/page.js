@@ -43,7 +43,7 @@ const EtalonnagePage = () => {
       <section className="bg-white shadow-lg rounded-lg p-8 mb-10 w-full max-w-5xl">
         
         <p className="text-gray-700 text-lg leading-relaxed">
-        Le CTIME propose un service de calibration de vos machines à commande numérique (CN) utilisant des techniques d’interférométrie de haute précision. Cette méthode permet d’obtenir des mesures extrêmement précises des déplacements linéaires et angulaires des axes de vos machines, garantissant ainsi leur performance optimale.
+        Le CTIME propose un service de calibration de vos machines à commande numérique (CNC) utilisant des techniques d’interférométrie de haute précision. Cette méthode permet d’obtenir des mesures extrêmement précises des déplacements linéaires et angulaires des axes de vos machines, garantissant ainsi leur performance optimale.
         </p>
         <p className="text-gray-700 text-lg leading-relaxed">
         Ce service permet d’améliorer la précision des usinages, d’assurer une longévité accrue de vos équipements et de réduire les coûts liés aux erreurs de fabrication.

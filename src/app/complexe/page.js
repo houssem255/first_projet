@@ -10,7 +10,7 @@ const EtalonnagePage = () => {
         "a) Avec démagnétisation précédent et enlèvement de formation de morfil : Détermination de la longueur centrale et la variation de la longueur suivant ISO 3650.",
         "b) Seulement pour des cales étalons nouvelles : Détermination de la longueur centrale et la variation de la longueur suivant ISO 3650.",
       ],
-      images: ["/19.jpg", "/20.jpg"],
+      images: ["/19.jpg","/20.jpg"],
     }, 
   ];
 
