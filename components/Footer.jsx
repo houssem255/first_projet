@@ -35,7 +35,7 @@ export default function Footer() {
               <ul className="space-y-2">
                 <li className="text-gray-300 hover:scale-110 hover:text-white ease-out duration-200"><Link href="https://www.facebook.com/CtimeAlgerie/"  >FACEBOOK</Link></li>
                 <li className="text-gray-300 hover:scale-110 hover:text-white ease-out duration-200"><Link href="https://www.youtube.com/@ctimealgerie5011"  >YOUTUBE</Link></li>
-                <li className="text-gray-300 hover:scale-110 hover:text-white ease-out duration-200"><Link href="https://www.linkedin.com/company/ctime-alg%C3%A9rie">linkedin</Link></li>
+                
               </ul>
             </div>
   
