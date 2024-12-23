@@ -38,20 +38,20 @@ export default function PresentationCTIME() {
         À titre indicatif, le CTIME se distingue déjà par des services :
         </h2>
         <h2 className="mb-4 my-2 text-xl font-semibold">
-        * Etalonnage dimensionnel
+        - Etalonnage dimensionnel
         </h2 >
         <h2 className="mb-4 my-2 text-xl font-semibold">
-       * Controle de CNC
+       - Controle de CNC
         </h2 >
         <h2 className="mb-4 my-2 text-xl font-semibold">
-        * Mesure des pieces complexes
+        - Mesure des pieces complexes
         </h2 >
         <h2 className="mb-4 my-2 text-xl font-semibold">
-        * Digitalisation
+        - Digitalisation
         </h2 >
        
         <h1 className="mb-4 my-2 text-xl font-semibold">
-         * Essais mécaniques
+         - Essais mécaniques
         </h1>
        
       </section>
