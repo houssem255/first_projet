@@ -28,10 +28,19 @@ const EtalonnagePage = () => {
 
       <h1 className="text-5xl font-extrabold text-red-600 mb-4 text-center">Pièces complexe</h1>
       
-      <section className="bg-white shadow-lg rounded-lg p-6 mb-8 w-full max-w-2xl">
+      <section className="bg-white shadow-lg rounded-lg p-6 mb-8 w-full max-w-6xl">
         <p className="text-gray-700">
-          • L’existence des machines à Mesurer Tridimensionnelle (3D) permettant d’effectuer des mesures sur des pièces complexes (des pièces à haute précisions, des gabarits, des outillages et des pièces de prototypes complexes).
+        Le CTIME propose un service d&apos;inspection et de mesure de pièces complexes, utilisant des équipements de mesure de très haute précision. Notre expertise permet de garantir l’exactitude des dimensions et des tolérances les plus strictes, essentielles à la qualité et à la performance de vos produits.
         </p>
+        <p className="text-gray-700">Nous utilisons des technologies avancées telles que la métrologie 3D et une machine de mesure tridimensionnelle (MMT) pour inspecter vos pièces sous tous les angles, détecter les défauts invisibles à l&apos;œil nu, et réaliser des contrôles détaillés des géométries.</p>
+        <p className="text-gray-700">Nos services incluent :</p>
+        <ul className="text-gray-700">
+          <li><strong>- Analyse préliminaire</strong>  des spécifications de la pièce et des critères de mesure.</li>
+          <li><strong>- Inspection détaillée</strong> à l’aide d’équipements de haute précision.</li>
+          <li><strong>- Mesure de dimensions complexes</strong>, telles que les tolérances géométriques et les contours 3D.</li>
+          <li><strong>- Édition de rapports détaillés</strong>et recommandations pour les améliorations nécessaires.</li>
+        </ul>
+        <p className="text-gray-700">Nous assurons un service rapide, fiable et conforme aux normes les plus rigoureuses, avec des résultats documentés et traçables pour optimiser vos processus de fabrication.</p>
       </section>
 
       
