@@ -49,18 +49,18 @@ const EtalonnagePage = () => {
         Il constitue une gamme de solutions d’application plus étendue, de très longue portée et extrêmement portable. Une mesure 3D dans un grand volume est une solution rapide et précise qui convient à de multiples applications industrielles.
         </p>
         <div>
-        <ul>
-          <li>Grande pièce industrielle</li>
+        <ul className="text-gray-700 text-lg leading-relaxed">
+          <li>-Grande pièce industrielle</li>
           <li>
-                  Batiment industrielle
+                 -Batiment industrielle
  
              </li>
-          <li>Ouvrage d&lsquo;art</li>
-          <li>Mat de forage</li>
-          <li>Construction navale</li>
-          <li>Tours (Administratif, habitation,....)</li>
-          <li>Engins</li>
-          <li>Wagon</li>
+          <li>-Ouvrage d&lsquo;art</li>
+          <li>-Mat de forage</li>
+          <li>-Construction navale</li>
+          <li>-Tours (Administratif, habitation,....)</li>
+          <li>-Engins</li>
+          <li>-Wagon</li>
           
         </ul>
         </div>
