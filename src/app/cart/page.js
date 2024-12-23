@@ -33,23 +33,27 @@ export default function PresentationCTIME() {
         <p className="mb-4 text-gray-700">
         L&apos;investissement en moyens de contrôle va de quelques milliers de Dinars à plusieurs dizaines de millions pour des machines de haute précision. Choisir les moyens adaptés aux vérifications qui sont nécessaires pour pouvoir certifier la qualité du produit n&apos;est pas toujours une tâche facile. À cet effet, le CTIME avec seulement deux des quatre laboratoires prévus propose aux opérateurs une gamme assez large d&apos;essais et d&apos;expertise conformément aux normes internationales, leur présentant une meilleure vision de la qualité des produits avec des équipements modernes de dernière génération.
         </p>
-        <p className="mb-4 text-gray-700">
-        Au jour d&apos;aujourd&apos;hui, le CTIME a été très bien accueilli par des opérateurs des filières mécaniques et transformation des métaux en particulier ceux du secteur de l&apos;énergie et les PME.
-        </p>
-        <h2 className="mb-4 my-8 text-xl font-semibold">
+        
+        <h2 className="mb-4 my-2 text-xl font-semibold">
         À titre indicatif, le CTIME se distingue déjà par des services :
         </h2>
-        <h2 className="mb-4 my-8 text-xl font-semibold">
-        ETALONNAGE :
+        <h2 className="mb-4 my-2 text-xl font-semibold">
+        * Etalonnage dimensionnel
         </h2 >
-        <p className="mb-4 text-gray-700">
-        C&apos;est la comparaison des valeurs d&apos;un instrument de mesure à celles d&apos;un étalon, en associant les incertitudes. Cette comparaison permet d&apos;estimer le biais de l&apos;instrument. Les valeurs obtenues par un étalonnage sont consignées dans un certificat d&apos;étalonnage.
-        À noter que cette opération est indispensable pour les entreprises concernées par les certifications et le CTIME est réellement équipé pour ces prestations dans le domaine dimensionnel.
-        </p>
-        <h1 className="mb-4 my-8 text-xl font-semibold">
-        ESSAIS MÉCANIQUES :
+        <h2 className="mb-4 my-2 text-xl font-semibold">
+       * Controle de CNC
+        </h2 >
+        <h2 className="mb-4 my-2 text-xl font-semibold">
+        * Mesure des pieces complexes
+        </h2 >
+        <h2 className="mb-4 my-2 text-xl font-semibold">
+        * Digitalisation
+        </h2 >
+       
+        <h1 className="mb-4 my-2 text-xl font-semibold">
+         * Essais mécaniques
         </h1>
-        <p className="mb-4 text-gray-700">Ensemble d&apos;essais pour la caractérisation des matériaux métalliques à forte et faible résistance, le CTIME est en mesure de réaliser un essai de traction à haute température allant jusqu&apos;à 1200°C.</p>
+       
       </section>
     </div>
   );

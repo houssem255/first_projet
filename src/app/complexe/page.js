@@ -18,9 +18,9 @@ const EtalonnagePage = () => {
     <div className="flex flex-col items-center bg-cover bg-center bg-no-repeat p-10 min-h-screen" style={{ backgroundImage: 'url("/4872987.jpg")' }}>
       
       <motion.img
-        src="/32-imageonline.co-merged.jpg"
+        src="/MMT-2024-12-22-13h54m50s880-imageonline.co-merged.png"
         alt="Étalonnage des Instruments"
-        className="w-full max-w-10xl h-1000 mb-6 rounded-lg shadow-lg transition-transform transform hover:scale-105"
+        className="w-full max-w-5xl h-600 mb-12 rounded-lg shadow-lg transition-transform transform hover:scale-105"
         initial={{ opacity: 0, scale: 0.8 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.5 }}
