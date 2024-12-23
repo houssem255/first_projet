@@ -214,7 +214,7 @@ const EtalonnagePage = () => {
       <section className="bg-white shadow-lg rounded-lg p-8 mb-10 w-full max-w-5xl">
         
         <p className="text-gray-700 text-lg leading-relaxed">
-          L&apos;inspection des engrenages a toujours été un domaine très pointu. Avec des calculs spécifiques à la géométrie des engrenages, même les meilleurs inspecteurs ne pouvaient en général pas exploiter les détails de la géométrie de ces éléments. On utilisait traditionnellement un matériel dédié à l&apos;inspection des engrenages, très onéreux, qui était la seule méthode permettant d&apos;identifier des problèmes de fabrication. La possibilité d&apos;automatiser l&apos;inspection des engrenages à l&apos;aide d&apos;une MMT, un équipement plus flexible et relativement économique, met l&apos;inspection des engrenages à la portée de presque tout atelier qui en a besoin. L&apos;autre avantage est que de nombreux ateliers possèdent de toute façon une MMT automatique. Ainsi, l&apos;inspection des engrenages étend les fonctionnalités d&apos;un outil existant.
+        Le CTIME propose d&apos;effectuer une inspection complète de vos engrenages en utilisant la MMT de haute précision. Cette technologie avancée permet de mesurer avec une grande précision les dimensions, la géométrie et les spécifications de vos engrenages, garantissant ainsi une qualité et une performance optimales.
         </p>
       </section>
 

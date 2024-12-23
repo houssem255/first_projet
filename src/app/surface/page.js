@@ -48,8 +48,25 @@ const EtalonnagePage = () => {
       <section className="bg-white shadow-lg rounded-lg p-8 mb-10 w-full max-w-5xl">
         
         <p className="text-gray-700 text-lg leading-relaxed">
-           Détecter les caractéristiques géométriques et les caractéristiques de surface des pièces.
+        Le CTIME propose un service avancé de mesure des paramètres de l&apos;état de surface et du contour de vos pièces mécaniques, en utilisant des équipements de très haute précision. Grâce à des technologies de pointe nous offrons une analyse complète et précise des caractéristiques critiques de vos pièces.
         </p>
+        <p className="text-gray-700 text-lg leading-relaxed">
+        Nos services incluent :
+        </p>
+        <ul className="text-gray-700 text-lg leading-relaxed">
+        <li>•	<strong>Mesure de la rugosité de surface : </strong> Détection et quantification des irrégularités de surface (raies, aspérités, etc.) selon les normes définies.</li>
+        <li>•	<strong>Analyse des dimensions et du contour :</strong> Vérification de la forme et des dimensions avec une précision micrométrique, assurant la conformité aux spécifications techniques.</li>
+        <li>•	<strong>Contrôle topographique 2D et 3D :</strong> Modélisation détaillée des contours et des surfaces pour des rapports approfondis.</li>
+
+    
+        </ul>
+        <p className="text-gray-700 text-lg leading-relaxed">
+        Les résultats sont fournis sous forme de rapports détaillés, avec des visualisations graphiques 
+Nous garantissons des résultats rapides, fiables et adaptés à vos besoins spécifiques.
+
+        </p>
+
+        
       </section>
 
      

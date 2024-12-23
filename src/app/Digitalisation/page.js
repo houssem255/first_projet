@@ -45,7 +45,7 @@ const EtalonnagePage = () => {
       <section className="bg-white shadow-lg rounded-lg p-8 mb-10 w-full max-w-5xl">
      
         <p className="text-gray-700 text-lg leading-relaxed">
-        La digitalisation d’objets se fait par l’utilisation de scanner 3D, elle est connue par sa rapidité et la précision de la géométrie obtenue. 
+        Le CTIME propose un service de digitalisation 3D de vos pièces mécaniques utilisant un scanner de haute précision. Ce service vous permettra d&apos;obtenir des modèles 3D détaillés et des dessins de définition techniques, parfaitement adaptés à vos besoins de conception et de production. Grâce à notre technologie avancée, nous garantissons une précision micrométrique, idéale pour des pièces complexes ou de petite taille. Nous assurons un traitement rapide des données et la génération de fichiers CAO compatibles (. STL, STEP, IGES, etc.). Nos solutions permettent de réduire les coûts de prototypage et d&apos;améliorer la gestion des pièces existantes.
         </p>
       </section>
 
